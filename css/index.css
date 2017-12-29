@@ -23,7 +23,7 @@ nav {
 
 nav .navbar-brand {
   overflow: hidden;
-  width: 200px;
+  width: 250px;
   height: 200px;
 }
 
@@ -36,13 +36,43 @@ nav .navbar-right {
 }
 
 nav .navbar-right a {
-  /*color: black !important;*/
+  transition: color 0.5s ease;
+  -moz-transition: color 0.5s ease;
+  -webkit-transition: color 0.5s ease;
   color: rgb(64,64,64) !important;
 }
 
 nav .navbar-right a:hover{
   color: #e05944 !important;
 }
+nav .navbar-right a .glyphicon-home {
+color: #529ba8;
+}
+
+nav .navbar-right a .glyphicon-info-sign {
+color: #e05944;
+}
+
+nav .navbar-right a .glyphicon-duplicate {
+color: #529ba8;
+}
+
+nav .navbar-right a .glyphicon-envelope {
+color: #e05944;
+}
+
+nav .navbar-right a .glyphicon-road {
+color: #529ba8;
+}
+
+nav .navbar-right a .glyphicon-heart {
+color: #e05944;
+}
+
+nav .navbar-right a .glyphicon-usd {
+color: #529ba8;
+}
+
 
 .main {
     padding:10px;

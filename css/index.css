@@ -85,18 +85,13 @@ color: #529ba8;
     position:absolute;
     bottom:0;
     left:0;
-    background:#ee5;
+    background: #529ba8;
 }
 
-/*footer {
-  color: #666;
-  background: #222;
-  padding: 17px 0 18px 0;
-  border-top: 1px solid #000;
+#footer .container {
+  width: 90%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  margin-left: auto;
+  margin-right: auto;
 }
-footer a {
-  color: #999;
-}
-footer a:hover {
-  color: #efefef;
-}*/

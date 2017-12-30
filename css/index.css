@@ -73,14 +73,13 @@ nav .navbar-right a .glyphicon-usd {
 color: #529ba8;
 }
 
-
-
 .jumbotron {
   margin-bottom: 0 !important;
 }
 
 .main {
   overflow: hidden;
+  width: 100%;
   padding-bottom:200px;   /* Height of the footer element */
 }
 
@@ -106,7 +105,8 @@ color: #529ba8;
   height: 150px;
   width: 150px;
   color:white;
-  background: #529ba8;
+  margin-left:auto;
+  margin-right:auto;
 }
 
 .homepage .hp-first .features .feature-icon .fa-car{
@@ -114,10 +114,23 @@ color: #529ba8;
   line-height: 150px;
 }
 
-.homepage .hp-first .features h6{
+.homepage .hp-first .features .feature-icon .fa-heart{
+  font-size: 60px;
+  line-height: 150px;
+}
+
+.homepage .hp-first .features .feature-icon .fa-dollar{
+  font-size: 60px;
+  line-height: 150px;
+}
+
+.homepage .hp-first .features h6 {
   text-align: center;
 }
 
+.homepage .hp-first .features .feature-description {
+  margin-top: 10%;
+}
     
 
 #footer {

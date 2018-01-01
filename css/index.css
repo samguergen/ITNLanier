@@ -98,7 +98,7 @@ color: #529ba8;
 
 .homepage .hp-first {
   background: white;
-  padding-bottom: 20px;
+  padding-bottom: 5%;
 }
 
 .homepage h2 {
@@ -190,6 +190,19 @@ color: #529ba8;
   margin-bottom: -7%;
 }
 
+.homepage .rider-stories {
+  background: #afcace;
+}
+
+.homepage .rider-stories .rider-stories-text {
+  background: #f8fafa;
+  color: #666666;
+  padding: 26px 39px;
+  border-radius: 4px;
+  margin-left: 1%;
+  margin-right: 1%;
+}
+
 .homepage .regeneron {
   background: white;
   font-size: 20px;
@@ -206,7 +219,12 @@ color: #529ba8;
     position:absolute;
     bottom:0;
     left:0;
-    background: #529ba8;
+    /*background: #529ba8;*/
+    background: #399eaa;
+}
+
+#footer .container ul {
+  list-style-type: none;
 }
 
 #footer .container {
@@ -218,9 +236,16 @@ color: #529ba8;
 }
 
 #footer .container hr {
-  color: #e05944;
+  height: 1px;
+  border-color: #e05944;
+  background-color: #e05944;
+  color: #e05944; 
   width: 80px;
   margin-left: 0;
+}
+
+#footer .container .footer-title {
+  margin-bottom:2%;
 }
 
 #footer .container input {
@@ -231,4 +256,21 @@ color: #529ba8;
 #footer .container .social-icons i {
   font-size: 25px;
   padding: 10px;
+  line-height:40px;
+}
+
+#footer .container .social-icon-border {
+  border-radius: 100%;
+  padding: 10px;
+  border: 1px solid blue;
+  height: 40px;
+  width: 40px;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+#footer .container .btn-search {
+  border: none;
+  margin-left: -33px;
+  margin-top: 10px;
 }

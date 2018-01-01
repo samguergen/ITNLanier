@@ -146,10 +146,24 @@ color: #529ba8;
 
 .homepage .mission {
   text-align: center;
+  background-color: #399eaa;
+  color: white;
 }
 
 .homepage .mission h2 {
-  margin-bottom: 5%;
+  margin-bottom: 2%;
+}
+
+.homepage .mission h4 {
+  line-height: 1.7;
+}
+
+.homepage .progress {
+  /*overflow: auto;*/
+}
+
+.homepage .progress .progress-steps{
+  text-align: center;
 }
     
 #footer {

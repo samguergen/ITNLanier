@@ -87,6 +87,7 @@ color: #529ba8;
   float: left;
   width: 100%;
   line-height: 1.7;
+  font-family: Lato;
 }
 
 .section-content {
@@ -103,6 +104,7 @@ color: #529ba8;
 .homepage .hp-first h2 {
   text-align:center;
   margin-bottom: 5%;
+  font-weight: bold;
 }
 
 .homepage .hp-first .features{
@@ -148,6 +150,7 @@ color: #529ba8;
   text-align: center;
   background-color: #399eaa;
   color: white;
+  font-size:50px;
 }
 
 .homepage .mission h2 {
@@ -159,11 +162,32 @@ color: #529ba8;
 }
 
 .homepage .progress {
-  /*overflow: auto;*/
+  /*min-height: 200px;
+  max-height: 300px;*/
+  height: 300px;
+  font-size: 40px;
+  color: white;
+  background-image: url('../images/hands4-itn.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.homepage .progress h1 {
+  text-align:center;
+  font-size: 50px;
 }
 
 .homepage .progress .progress-steps{
+  margin-top: 3%;
   text-align: center;
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+.homepage .progress .progress-steps .numbers{
+  margin-bottom: -7%;
 }
     
 #footer {

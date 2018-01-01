@@ -101,7 +101,7 @@ color: #529ba8;
   padding-bottom: 20px;
 }
 
-.homepage .hp-first h2 {
+.homepage h2 {
   text-align:center;
   margin-bottom: 5%;
   font-weight: bold;
@@ -189,6 +189,16 @@ color: #529ba8;
 .homepage .progress .progress-steps .numbers{
   margin-bottom: -7%;
 }
+
+.homepage .regeneron {
+  background: white;
+  font-size: 20px;
+}
+
+.homepage .regeneron h2 {
+  margin-bottom:2%;
+}
+
     
 #footer {
     width:100%;

@@ -127,8 +127,11 @@ color: #529ba8;
 
 .carousel-inner .item .carousel-statement {
   margin-top: -12%;
-  margin-left: -30%;
+  margin-left: 10%;
   z-index: 998;
+  color:white;
+  width:60%;
+  text-align:left;
 }
 
 .homepage .hp-first .features{

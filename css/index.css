@@ -107,6 +107,15 @@ color: #529ba8;
   font-weight: bold;
 }
 
+.carousel-inner .item {
+    width: 100%;
+    height: 400px;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
 .homepage .hp-first .features{
   width: 90%;
   margin-left: auto;

@@ -282,18 +282,52 @@ color: #529ba8;
 
 #footer .container .social-icons i {
   font-size: 25px;
-  padding: 10px;
-  line-height:40px;
+  /*padding: 10px;
+  line-height:40px;*/
+  margin-left:20%;
 }
 
 #footer .container .social-icon-border {
   border-radius: 100%;
   padding: 10px;
   border: 1px solid blue;
-  height: 40px;
-  width: 40px;
+  height: 50px;
+  width: 50px;
   margin-left:auto;
   margin-right:auto;
+  margin:2%;
+}
+
+#footer .container .fb {
+  border: 2px solid #3a5795;
+}
+
+#footer .container .fb .fa {
+    color: #3a5795 !important;
+}
+
+#footer .container .tw {
+  border: 2px solid #cf3427;
+}
+
+#footer .container .tw .fa {
+    color: #cf3427 !important;
+}
+
+#footer .container .yt {
+  border: 2px solid #0177b4;
+}
+
+#footer .container .yt .fa {
+    color: #0177b4 !important;
+}
+
+#footer .container .in {
+  border: 2px solid #78bdf1;
+}
+
+#footer .container .in .fa {
+    color: #78bdf1 !important;
 }
 
 #footer .container .btn-search {

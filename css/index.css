@@ -301,33 +301,56 @@ color: #529ba8;
 #footer .container .fb {
   border: 2px solid #3a5795;
 }
-
+#footer .container .fb:hover {
+  background: #3a5795;
+}
+#footer .container .fb:hover .fa {
+  color:white;
+}
 #footer .container .fb .fa {
-    color: #3a5795 !important;
+    color: #3a5795;
 }
 
 #footer .container .tw {
   border: 2px solid #cf3427;
 }
-
+#footer .container .tw:hover {
+  background: #cf3427;
+}
+#footer .container .tw:hover .fa {
+  color:white;
+}
 #footer .container .tw .fa {
-    color: #cf3427 !important;
+    color: #cf3427;
+    margin-left: 8% !important;
 }
 
 #footer .container .yt {
   border: 2px solid #0177b4;
 }
-
+#footer .container .yt:hover {
+  background:#0177b4;
+}
+#footer .container .yt:hover .fa {
+  color:white;
+}
 #footer .container .yt .fa {
-    color: #0177b4 !important;
+    color: #0177b4;
+    margin-left: 8% !important;
 }
 
 #footer .container .in {
   border: 2px solid #78bdf1;
 }
-
+#footer .container .in:hover {
+  background:#78bdf1;
+}
+#footer .container .in:hover .fa {
+  color:white;
+}
 #footer .container .in .fa {
-    color: #78bdf1 !important;
+    color: #78bdf1;
+    margin-left: 8% !important;
 }
 
 #footer .container .btn-search {

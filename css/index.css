@@ -83,7 +83,7 @@ color: #529ba8;
   padding-bottom:200px;   /* Height of the footer element */
 }
 
-.homepage .section {
+.section {
   float: left;
   width: 100%;
   line-height: 1.7;
@@ -297,6 +297,11 @@ color: #529ba8;
   margin-top: 7%;
   font-weight: bold;
   font-size: 18px;
+}
+
+.services .operating-radius {
+  text-align:center;
+  /*width:100%;*/
 }
 
 

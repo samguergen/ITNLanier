@@ -311,6 +311,20 @@ color: #529ba8;
   background: #399eaa;
 }
 
+.services .dignified h4 {
+  text-align:center;
+}
+.services .dignified p {
+  text-align:justify;
+  font-size: 18px;
+}
+.services .dignified .img-circle {
+  border-radius: 100%;
+  overflow: hidden;
+  height: 250px;
+  width: 250px;
+}
+
 
     
 #footer {

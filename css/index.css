@@ -272,6 +272,17 @@ color: #529ba8;
   margin-top: 4%;
 }
 
+.services .jumbo-title {
+  background-color: #399eaa;
+  color: white;
+  text-align: center;
+  padding: 2%;
+}
+
+.services .service-features {
+  background: white;
+}
+
     
 #footer {
     width:100%;

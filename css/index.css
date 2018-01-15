@@ -21,14 +21,9 @@ nav {
   background: white !important;
 }
 
-nav .navbar-brand {
-  overflow: hidden;
-  width: 230px;
-  height: 200px;
-}
-
-nav .navbar-brand img {
-  width: 100%;
+nav .navbar-header img {
+  margin-top: 25px;
+  height: 60px;
 }
 
 nav .navbar-right {

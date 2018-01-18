@@ -350,25 +350,24 @@ color: #529ba8;
 }
 .news .news-content h3 {
   font-size:30px;
-  color:#b181b1;
+  color:#399eaa;
+  text-transform: uppercase;
 }
-.news .news-content .pressroom img {
+.news .news-content  img {
   width: 250px;
   margin-left: 65%;
 }
-.news .news-content .newsletter-content {
-  margin-top: 100px;
-  font-size: 18px;  
-}
-.news .news-content .newsletter-content ul{
+.news .news-content ul{
+  margin-top: 50px;
   list-style-type: none;
   text-align:right;
   color: #b95856;
   font-weight: bold;
   line-height: 2;
+  font-size: 18px;  
 }
 
-.news .news-content .newsletter-content ul li a{color: #b95856;}
+.news .news-content ul li a{color: #b95856;}
 
     
 #footer {

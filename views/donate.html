@@ -8,7 +8,7 @@
   <meta name="description" content="">
   <meta name="Sam Guergenenov" content="">
   
-  <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
+  <link rel="stylesheet" href="../node_modules/font-awesome/css/font-awesome.min.css">
   <script src="../node_modules/jquery/dist/jquery.min.js"></script>
   <script src="../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
   <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.css">
@@ -94,8 +94,88 @@
 
   <div class="main">
     
+    <div class="donate">
+      
+      <div class="jumbotron section first-hero" style="height:400px">
+        <h1>Donate</h1>
+      </div><!--first-hero-->
+      
+      <div class="jumbotron section">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-4">
+              <h2>Donate By Card</h2>
+              <hr align="center" width="35%">
+            </div>
+            <div class="col-sm-8 description">
+              <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+              	<input name="cmd" type="hidden" value="_s-xclick" /> 
+                <input name="hosted_button_id" type="hidden" value="GMQ4VPJ2YF96N" /> 
+                <input alt="PayPal - The safer, easier way to pay online!" border="0" name="submit" src="http://itnamerica.org/wp-content/uploads/2018/01/PayPal-Donate-Button.png" type="image"/> 
+                <img alt="" border="0" height="1" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" />
+              </form>
+            </div><!--description-->
+          </div><!--row-->
+          
+          <div class="row">
+            <div class="col-sm-4">
+              <h2>Donate By Check</h2>
+              <hr align="center" width="35%">
+            </div>
+            <div class="col-sm-8 description">
+              <p>
+                Mail your check to:<br>
+                ITNLanier<br>
+                PO Box 1183<br>
+                Gainesville, Georgia
+              </p>
+            </div><!--description-->
+          </div><!--row-->
+          
+          <div class="row">
+            <div class="col-sm-4">
+              <h2>Donate Your Car</h2>
+              <hr align="center" width="35%">
+            </div>
+            <div class="col-sm-8 description">
+                <div class="col-sm-8">
+                    <div class="form-area">  
+                        <!-- <form role="form"> -->
+                          <form action="mailto:info@itnlanier.org" method="post" enctype="text/plain">
+                        <br style="clear:both">
+                                    <h3 style="margin-bottom: 25px; text-align: center;">Contact us</h3>
+                    				<div class="form-group">
+                						<input type="text" class="form-control" id="name" name="name" placeholder="Name" required>
+                					</div>
+                					<div class="form-group">
+                						<input type="text" class="form-control" id="email" name="email" placeholder="Email" required>
+                					</div>
+                					<div class="form-group">
+                						<input type="text" class="form-control" id="mobile" name="mobile" placeholder="Mobile Number" required>
+                					</div>
+                					<div class="form-group">
+                						<input type="text" class="form-control" id="subject" name="subject" placeholder="Subject" required>
+                					</div>
+                          <div class="form-group">
+                          <textarea class="form-control" type="textarea" id="message" placeholder="Message" maxlength="140" rows="7"></textarea>
+                          </div>
+                        <input type="submit" id="submit" class="btn btn-primary pull-right itn-green-bg" value="Send" style="margin-left:2%">
+                        <input type="reset" class="btn btn-primary pull-right itn-green-bg" value="Reset">
+                        
+                        </form>
+                    </div>
+                  </div>
+            </div><!--description-->
+          </div><!--row-->
+          
+        </div><!--container-->
+      </div><!--section-->
+    
+    </div><!--donate-->
+    
+    
 
-  
+  <div class=""></div>
   </div><!--MAIN-->
   
   <div id="footer">

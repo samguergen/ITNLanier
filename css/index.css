@@ -39,40 +39,15 @@ nav .navbar-right a {
   color: rgb(64,64,64) !important;
 }
 
-nav .navbar-right a:hover{
-  color: #e05944 !important;
-}
-nav .navbar-right a .glyphicon-home {
-color: #529ba8;
-}
-
-nav .navbar-right a .glyphicon-info-sign {
-color: #e05944;
-}
-
-nav .navbar-right a .fa-newspaper-o {
-color: #529ba8;
-}
-
-nav .navbar-right a .glyphicon-envelope {
-color: #e05944;
-}
-
-nav .navbar-right a .fa-car {
-color: #529ba8;
-}
-
-nav .navbar-right a .glyphicon-heart {
-color: #e05944;
-}
-
-nav .navbar-right a .glyphicon-usd {
-color: #529ba8;
-}
-
-.jumbotron {
-  margin-bottom: 0 !important;
-}
+nav .navbar-right a:hover{color: #e05944 !important;}
+nav .navbar-right a .glyphicon-home {color: #529ba8;}
+nav .navbar-right a .glyphicon-info-sign {color: #e05944}
+nav .navbar-right a .fa-newspaper-o {color: #529ba8}
+nav .navbar-right a .glyphicon-envelope {color: #e05944;}
+nav .navbar-right a .fa-car {color: #529ba8;}
+nav .navbar-right a .glyphicon-heart {color: #e05944;}
+nav .navbar-right a .glyphicon-usd {color: #529ba8;}
+.jumbotron {margin-bottom: 0 !important;}
 
 .main {
   overflow: hidden;
@@ -166,9 +141,7 @@ color: #529ba8;
   text-align: center;
 }
 
-.homepage .hp-first .features .feature-description {
-  margin-top: 10%;
-}
+.homepage .hp-first .features .feature-description {margin-top: 10%;}
 
 .homepage .mission {
   text-align: center;
@@ -177,13 +150,9 @@ color: #529ba8;
   font-size:50px;
 }
 
-.homepage .mission h2 {
-  margin-bottom: 2%;
-}
+.homepage .mission h2 {margin-bottom: 2%;}
 
-.homepage .mission h4 {
-  line-height: 1.7;
-}
+.homepage .mission h4 {line-height: 1.7;}
 
 .homepage .progress {
   /*min-height: 200px;
@@ -384,13 +353,53 @@ color: #529ba8;
   margin-left: 5%;
 }
 .contact .form-area {
-      background-color: #FAFAFA;
+    background-color: #FAFAFA;
   	padding: 10px 40px 60px;
   	margin: 10px 0px 60px;
   	border: 1px solid GREY;
     border: 2px solid #8f8fb66b;
     border-radius: 5px;
 }
+
+.donate .first-hero {
+  background-image: url('../../images/itn-people-images/woman-cheek.jpg');
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 400px;
+}
+.donate .first-hero h1{
+  color:white;
+  margin-top:170px;
+  margin-left: 5%;
+}
+.donate h2 {
+  color: #399eaa
+}
+.donate hr {
+  border: none;
+  height: 5px;
+  color: #fc6d6d;
+  background-color: #fc6d6d;
+}
+.donate .description {
+  margin-top: 60px;
+}
+.donate .description p {
+  border: 2px solid #fc6d6d;
+  padding: 20px;
+  width: 30%;
+  border-radius: 5px;
+}
+.donate .form-area {
+    background-color: #FAFAFA;
+  	padding: 10px 40px 60px;
+  	margin: 10px 0px 60px;
+  	border: 1px solid GREY;
+    border: 2px solid #fc6d6d;
+    border-radius: 5px;
+}
+
     
 #footer {
     width:100%;

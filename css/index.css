@@ -369,6 +369,22 @@ color: #529ba8;
 
 .news .news-content ul li a{color: #b95856;}
 
+
+.contact .first-hero {
+  background-image: url('../../images/itn-people-images/ITNLanier_mirror.jpg');
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 400px;
+  opacity: 0.5;
+}
+
+.contact .first-hero h1{
+  color:white;
+  margin-top:170px;
+  margin-left: 5%;
+}
+
     
 #footer {
     width:100%;

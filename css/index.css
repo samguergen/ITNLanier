@@ -386,10 +386,10 @@ nav .navbar-right a .glyphicon-usd {color: #529ba8;}
   margin-top: 60px;
 }
 .donate .description p {
-  border: 2px solid #fc6d6d;
+  /*border: 2px solid #fc6d6d;
   padding: 20px;
   width: 30%;
-  border-radius: 5px;
+  border-radius: 5px;*/
 }
 .donate .form-area {
     background-color: #FAFAFA;

@@ -378,13 +378,19 @@ color: #529ba8;
   height: 400px;
   opacity: 0.5;
 }
-
 .contact .first-hero h1{
   color:white;
   margin-top:170px;
   margin-left: 5%;
 }
-
+.contact .form-area {
+      background-color: #FAFAFA;
+  	padding: 10px 40px 60px;
+  	margin: 10px 0px 60px;
+  	border: 1px solid GREY;
+    border: 2px solid #8f8fb66b;
+    border-radius: 5px;
+}
     
 #footer {
     width:100%;
@@ -502,3 +508,11 @@ color: #529ba8;
   margin-left: -33px;
   margin-top: 10px;
 }
+
+
+/* HELPER CLASSES */
+
+.itn-green {color: #399eaa}
+.itn-green-bg {background: #399eaa}
+.itn-orange {color: #fc6d6d }
+.itn-orange-bg {background: #fc6d6d }

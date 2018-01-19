@@ -469,6 +469,7 @@ nav .dropdown-menu li a {
 .corporate .description .container {
   width:80%;
   overflow:hidden;
+  margin-bottom: 25px;
 }
 .corporate .description p {
   color: white;

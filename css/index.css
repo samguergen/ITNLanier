@@ -309,6 +309,7 @@ nav .navbar-right a .glyphicon-usd {color: #529ba8;}
 }
 .news .first-hero h1 {
   color:white;
+  color: #fcedea;
   margin-top: 170px;
   margin-left: 5%;
 }
@@ -316,6 +317,7 @@ nav .navbar-right a .glyphicon-usd {color: #529ba8;}
   min-height: 400px;
   padding-top: 75px;
   padding-bottom: 75px;
+  background: #fcedea;
 }
 .news .news-content h3 {
   font-size:30px;
@@ -349,6 +351,7 @@ nav .navbar-right a .glyphicon-usd {color: #529ba8;}
 }
 .contact .first-hero h1{
   color:white;
+  color:#c7dfe4;
   margin-top:170px;
   margin-left: 5%;
 }
@@ -373,6 +376,12 @@ nav .navbar-right a .glyphicon-usd {color: #529ba8;}
   margin-top:170px;
   margin-left: 5%;
 }
+.donate .donate-type {
+  background: #ff000021;
+  padding: 25px;
+  border-radius: 10px;
+  margin-top:25px;
+}
 .donate h2 {
   color: #399eaa
 }
@@ -385,11 +394,10 @@ nav .navbar-right a .glyphicon-usd {color: #529ba8;}
 .donate .description {
   margin-top: 60px;
 }
-.donate .description p {
-  /*border: 2px solid #fc6d6d;
-  padding: 20px;
-  width: 30%;
-  border-radius: 5px;*/
+.donate .description #checkbook-icon {
+  vertical-align:top; 
+  display:inline-block; 
+  margin-right:7%;
 }
 .donate .form-area {
     background-color: #FAFAFA;

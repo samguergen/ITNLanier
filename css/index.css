@@ -446,6 +446,39 @@ nav .dropdown-menu li a {
     border-radius: 5px;
 }
 
+.corporate #first-hero-corporate {
+  background-image: url('../../images/itn-people-images/hands4-itn.jpg') !important;
+  background-position: center center !important;
+  background-size: cover !important;
+  background-repeat: no-repeat !important;
+  height: 400px !important;
+  opacity: 0.5 !important;
+}
+
+.corporate #first-hero-corporate h1{
+  color:white !important;
+  margin-top:170px !important;
+  margin-left: 5% !important;
+}
+
+.corporate .corp-slogan h2 {
+  text-align:center; 
+  font-style:italic; 
+  color: #399eaa;
+}
+.corporate .container {
+  width:80%;
+  overflow:hidden;
+}
+.corporate .description {
+  /*overflow:hidden;
+   width:80%;*/
+}
+.corporate .description p {
+  color: white;
+  font-weight: bold;
+  line-height: 2;
+}
     
 #footer {
     width:100%;
@@ -453,7 +486,6 @@ nav .dropdown-menu li a {
     position:absolute;
     bottom:0;
     left:0;
-    /*background: #529ba8;*/
     background: #399eaa;
 }
 

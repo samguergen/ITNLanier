@@ -466,18 +466,18 @@ nav .dropdown-menu li a {
   font-style:italic; 
   color: #399eaa;
 }
-.corporate .container {
+.corporate .description .container {
   width:80%;
   overflow:hidden;
-}
-.corporate .description {
-  /*overflow:hidden;
-   width:80%;*/
 }
 .corporate .description p {
   color: white;
   font-weight: bold;
   line-height: 2;
+}
+.corporate .description img {
+  margin-left: -90%;
+  margin-top:100px;
 }
     
 #footer {

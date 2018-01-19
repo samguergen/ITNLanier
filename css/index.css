@@ -542,3 +542,35 @@ nav .navbar-right a .glyphicon-usd {color: #529ba8;}
 .itn-green-bg {background: #399eaa}
 .itn-orange {color: #fc6d6d }
 .itn-orange-bg {background: #fc6d6d }
+
+
+
+@media (max-width: 1070px) {
+  .nav {
+    /*height:180px !important;*/
+  }
+  
+  .navbar.navbar-default {
+    background-color: #99ccff;
+    border: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.navbar.navbar-default .navbar-collapse {
+    border: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+  .navbar-header {
+    float: left;
+    width: 100%;
+    text-align: center;
+  }
+  .navbar-right {
+    width:90%;
+    margin-left:auto;
+    margin-right:auto;
+  }
+}

@@ -14,6 +14,7 @@ body {
 
 .navbar {margin-bottom: 0 !important}
 
+
 nav {
   height: 100px;
   font-family: Lato;
@@ -32,6 +33,13 @@ nav .navbar-right {
   margin-top: 25px;
 }
 
+nav .navbar-right li:hover {
+  background: #399eaa;
+  border-radius:5px;
+  color:white;
+  font-weight: bold;
+}
+
 nav .navbar-right a {
   transition: color 0.5s ease;
   -moz-transition: color 0.5s ease;
@@ -39,7 +47,9 @@ nav .navbar-right a {
   color: rgb(64,64,64) !important;
 }
 
-nav .navbar-right a:hover{color: #e05944 !important;}
+/*nav .navbar-right a:hover{color: #e05944 !important;}*/
+nav .navbar-right a:hover { color: white !important}
+nav .navbar-right a:hover i, span { color: white !important}
 nav .navbar-right a .glyphicon-home {color: #529ba8;}
 nav .navbar-right a .glyphicon-info-sign {color: #e05944}
 nav .navbar-right a .fa-newspaper-o {color: #529ba8}
@@ -47,7 +57,26 @@ nav .navbar-right a .glyphicon-envelope {color: #e05944;}
 nav .navbar-right a .fa-car {color: #529ba8;}
 nav .navbar-right a .glyphicon-heart {color: #e05944;}
 nav .navbar-right a .glyphicon-usd {color: #529ba8;}
+
+nav .dropdown-menu {
+  background: #399eaa;
+  color:white;
+  font-weight: bold;
+  border-radius:5px;
+}
+
+nav .dropdown-menu li {
+  padding:5px;
+}
+
+nav .dropdown-menu li a {
+  color:white !important;
+  font-weight: bold !important;
+}
+
+
 .jumbotron {margin-bottom: 0 !important;}
+
 
 .main {
   overflow: hidden;
@@ -546,9 +575,6 @@ nav .navbar-right a .glyphicon-usd {color: #529ba8;}
 
 
 @media (max-width: 1070px) {
-  .nav {
-    /*height:180px !important;*/
-  }
   
   .navbar.navbar-default {
     background-color: #99ccff;
@@ -573,4 +599,15 @@ nav .navbar-right a .glyphicon-usd {color: #529ba8;}
     margin-left:auto;
     margin-right:auto;
   }
+}
+
+@media (max-width: 768px) {
+  nav .navbar-right {
+    width:100% !important;
+  }
+  nav .navbar-right a{
+    padding-left:10px !important;
+    padding-right:10px !important;
+  }
+
 }

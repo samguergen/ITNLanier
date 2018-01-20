@@ -408,6 +408,7 @@ nav .dropdown-menu li a {
   background-size: cover !important;
   background-repeat: no-repeat !important;
   height: 400px !important;
+  opacity:0.6;
 }
 .donate .first-hero h1{
   color:white;
@@ -480,6 +481,55 @@ nav .dropdown-menu li a {
   margin-left: -90%;
   margin-top:100px;
 }
+
+
+.community #first-hero-community {
+  background-image: url('../../images/itn-people-images/women-car.jpg') !important;
+  background-position: center center !important;
+  background-size: cover !important;
+  background-repeat: no-repeat !important;
+  height: 400px !important;
+  opacity: 0.5 !important;
+}
+.community #first-hero-community h1{
+  color:white !important;
+  margin-top:170px !important;
+  margin-left: 5% !important;
+}
+.community .comm-slogan {
+  background: #f7d0cf;
+}
+.community .comm-slogan .container {
+  background: white;
+  border-radius: 5px;
+  padding: 50px;
+}
+.community .comm-slogan h2 {
+  text-align:justify;
+  color: #fc6d6d;
+}
+.community .shop-ride {
+  background: #f8fafa;
+  padding: 25px;
+  margin-top:25px;
+  margin-bottom:50px;
+}
+.community .shop-ride h2 {
+  color: #399eaa
+}
+.community .shop-ride hr {
+  border: none;
+  height: 5px;
+  color: #fc6d6d;
+  background-color: #fc6d6d;
+}
+.community .shop-ride .row {
+  margin-top:50px;
+}
+.community .shop-ride .row .image{
+  margin-top:50px;
+}
+
     
 #footer {
     width:100%;

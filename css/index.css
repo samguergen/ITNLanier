@@ -541,6 +541,44 @@ nav .dropdown-menu li a {
   margin-top:50px;
 }
 
+#board h1 {
+  text-align:center;
+  padding: 20px;
+}
+#board .row {
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+#board .row img {
+  transform: scale(1.5);
+}
+#board .row h2{
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+  -webkit-font-smoothing: antialiased;
+  font-size:26px;
+  margin-top: 70px;
+}
+#board .row .title {
+  font-weight: bold;
+  font-style: italic;
+  line-height:2;
+  font-size: 18px;
+}
+#board .row button {
+  color: #ef4034 !important;
+  border-radius: 0;
+  border: 2px solid #ef4034;
+  font-size: 1.5em;
+  margin: 15px;
+  padding: 1em 2em;
+}
+#board .row .board-bio{
+  display:none;
+}
+
+
     
 #footer {
     width:100%;

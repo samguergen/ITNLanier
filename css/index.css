@@ -20,19 +20,23 @@ body {
 }
 .navbar {margin-bottom: 0 !important}
 nav {
-  height: 100px;
+  min-height: 100px;
   font-family: Lato;
   font-family: Helvetica;
   font-weight: bold;
   color: rgb(64,64,64);
   background: white !important;
 }
+nav .navbar-header, nav .navbar-header .navbar-brand {
+  /*overflow: hidden;*/
+  height:100px;
+  width:200px;
+}
 nav .navbar-header img {
-  margin-top: 25px;
+  /*margin-top: 25px;*/
   height: 60px;
 }
 nav .navbar-right {
-  /*white-space: nowrap;*/
   margin-top: 25px;
   margin-right: 2%;
 }
@@ -665,7 +669,7 @@ nav .dropdown-menu li a {
 
 /* RESPONSIVE */
 
-@media (max-width: 1195px) {
+@media (max-width: 1196px) {
   .navbar.navbar-default {
     border: 0;
     -webkit-box-shadow: none;
@@ -698,4 +702,35 @@ nav .dropdown-menu li a {
 @media (max-width: 897px) {
   .navbar-nav li:nth-last-child(2) {
     margin-left:20%;
+  }
+}
+
+@media (max-width: 768px) {
+  .navbar-collapse {
+    margin-top: 90px;
+    border: 0px;
+    text-align: center;
+  }
+  .navbar-nav li:nth-last-child(2) {
+    margin-left:0;
+  }
+  button.navbar-toggle {
+    /*margin-left: -50%;*/
+    left: 50%;
+    top: 20px;
+  }
+}
+
+
+@media (min-width: 768px) and (max-width: 1196px) {
+  
+  .navbar-header {
+    float: none !important;
+    /*width: 18% !important;*/
+    /*margin-bottom: 40px;*/
+    margin-bottom:-20px;
+    margin-left:auto !important;
+    margin-right:auto !important;
+  }
+  
 }

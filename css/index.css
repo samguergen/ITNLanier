@@ -665,6 +665,9 @@ nav .dropdown-menu li a {
    font-size: 18px !important;
    line-height: 2.2;
  }
+ .faq .qa {
+   float:left
+ }
 .faq .question {
   font-size: 22px;
   font-weight: bold;

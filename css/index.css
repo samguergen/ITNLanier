@@ -541,14 +541,38 @@ nav .dropdown-menu li a {
   margin-top:50px;
 }
 
+.organization #first-hero-org {
+  background-image: url('../../images/itn-people-images/ITNLanier_mirror.jpg');
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 400px;
+  opacity:0.5;
+}
+.organization #first-hero-org h1{
+  color:#399eaa !important;
+  margin-top:170px !important;
+  margin-left: 5% !important;
+}
+.organization .nav-tabs {
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 18px;
+  padding-left: 10px;
+  background:white;
+}
+.organization .container {
+  border-radius: 5px;
+}
 #board h1 {
   text-align:center;
   padding: 20px;
+  color:#399eaa;
 }
 #board .row {
   text-align: center;
   margin-top: 100px;
-  margin-bottom: 100px;
+  margin-bottom: 130px;
 }
 #board .row img {
   transform: scale(1.5);
@@ -576,6 +600,12 @@ nav .dropdown-menu li a {
 }
 #board .row .board-bio{
   display:none;
+  font-size: 20px;
+  line-height: 1.5;
+  padding: 5px;
+  margin-top: 20px;
+  width: 200%;
+  margin-left: -50%;
 }
 
 
@@ -699,10 +729,12 @@ nav .dropdown-menu li a {
 
 /* HELPER CLASSES */
 
-.itn-green {color: #399eaa}
-.itn-green-bg {background: #399eaa}
-.itn-orange {color: #fc6d6d }
-.itn-orange-bg {background: #fc6d6d }
+.itn-green {color: #399eaa !important}
+.itn-green-bg {background: #399eaa !important}
+.itn-orange {color: #fc6d6d !important}
+.itn-orange-bg {background: #fc6d6d !important}
+.itn-lightgreen {color: #afcace !important}
+.itn-lightgreen-bg {background: #afcace !important}
 
 
 /* RESPONSIVE */

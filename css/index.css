@@ -559,12 +559,21 @@ nav .dropdown-menu li a {
   margin-right: auto;
   font-size: 18px;
   padding-left: 10px;
-  background:white;
+  background: #399eaa24 !important;
+}
+.organization .nav-tabs li {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  font-size: 20px;
 }
 .organization .container {
   border-radius: 5px;
 }
-#board h1 {
+.organization .container section {
+  background:white;
+  margin-bottom:50px;
+}
+#board h1, .org-section h1 {
   text-align:center;
   padding: 20px;
   color:#399eaa;
@@ -572,7 +581,6 @@ nav .dropdown-menu li a {
 #board .row {
   text-align: center;
   margin-top: 100px;
-  margin-bottom: 130px;
 }
 #board .row img {
   transform: scale(1.5);
@@ -735,6 +743,8 @@ nav .dropdown-menu li a {
 .itn-orange-bg {background: #fc6d6d !important}
 .itn-lightgreen {color: #afcace !important}
 .itn-lightgreen-bg {background: #afcace !important}
+.mt-100 {margin-top:100px}
+.mb-100 {margin-bottom:100px}
 
 
 /* RESPONSIVE */

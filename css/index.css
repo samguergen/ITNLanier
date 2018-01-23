@@ -639,6 +639,64 @@ nav .dropdown-menu li a {
  }
 
 
+ .faq #first-hero-faq {
+   background-image: url('../../images/backgrounds/background-faq.jpg');
+   background-position: center center;
+   background-size: cover;
+   background-repeat: no-repeat;
+   height: 400px;
+   opacity:0.5;
+ }
+ .faq #first-hero-faq h1{
+   color:#399eaa !important;
+   margin-top:170px !important;
+   margin-left: 5% !important;
+ }
+ .faq .container {
+   float:left;
+   margin-top:50px;
+   margin-bottom:25px;
+ }
+ .faq .questions-list ul {
+   list-style-type: none;
+ }
+ .faq .questions-list ul li {
+   font-size: 18px !important;
+   line-height: 2.2;
+ }
+ /*.faq .question {
+   font-size: 22px;
+   font-weight:bold;
+ }*/
+ .faq .answer {
+   margin-left:10%;
+   text-align:right;
+ }
+.faq .question {
+  font-size: 22px;
+  font-weight: bold;
+  position: relative;
+  line-height: 120px;
+  padding: 0px 30px 0px 30px;
+  background: #ffffff;
+  border-radius: 10px;
+  display: inline-block;
+  margin-left: 5%;
+}
+
+.faq .question:after {
+   content: '';
+   position: absolute;
+   border-style: solid;
+   border-width: 13px 32px 13px 0;
+   border-color: transparent #ffffff;
+   display: block;
+   width: 0;
+   z-index: 1;
+   left: -32px;
+   top: 71px;
+}
+
     
 #footer {
     width:100%;

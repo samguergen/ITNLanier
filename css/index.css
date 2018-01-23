@@ -658,6 +658,10 @@ nav .dropdown-menu li a {
    padding-bottom:25px;
    width: 100%;
  }
+ .faq .questions-list {
+   background: #afcace;
+   border: 15px solid white;
+ }
  .faq .questions-list ul {
    list-style-type: none;
  }
@@ -666,7 +670,7 @@ nav .dropdown-menu li a {
    line-height: 2.2;
  }
  .faq .qa {
-   float:left
+   float:left;
  }
 .faq .question {
   font-size: 22px;

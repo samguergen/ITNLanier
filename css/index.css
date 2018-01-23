@@ -559,7 +559,7 @@ nav .dropdown-menu li a {
   margin-right: auto;
   font-size: 18px;
   padding-left: 10px;
-  background: #399eaa24 !important;
+  background: white;
 }
 .organization .nav-tabs li {
   padding-top: 15px;
@@ -572,6 +572,11 @@ nav .dropdown-menu li a {
 .organization .container section {
   background:white;
   margin-bottom:50px;
+}
+.organization .section-container {
+  padding-top: 50px !important;
+  padding-bottom: 50px !important;
+  background: #399eaa24 !important;
 }
 #board h1, .org-section h1 {
   text-align:center;

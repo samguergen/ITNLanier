@@ -615,19 +615,22 @@ nav .dropdown-menu li a {
   width: 200%;
   margin-left: -50%;
 }
+.org-section {
+  overflow:hidden;
+}
 .org-section .national {
   background-image: url('../images/backgrounds/map_generic.jpg');
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
-  height: 400px;
+  border-radius: 0 !important;
 }
 .org-section .technology {
   background-image: url('../images/backgrounds/technology.jpg');
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
-  height: 400px;
+  border-radius: 0 !important;
  }
 
 

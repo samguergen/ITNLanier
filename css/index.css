@@ -747,6 +747,7 @@ nav .dropdown-menu li a {
   line-height: 2;
   margin-bottom: 50px;
   font-size: 25px;
+  color: #fc6d6d;
 }
 .rider-stories .cards-wrapper{
   text-align: center;
@@ -755,7 +756,8 @@ nav .dropdown-menu li a {
   margin-right: auto;
 }
 .rider-stories .card {
-  background:beige;
+  background: #fc6d6d57;
+  border: 5px solid #fc6d6d;
   padding:30px;
   /*width: 500px;*/
 }
@@ -765,8 +767,8 @@ nav .dropdown-menu li a {
 .rider-stories hr {
   border: none;
   height: 1px;
-  color: grey;
-  background-color: grey;
+  color: #fc6d6d;
+  background-color: #fc6d6d;
   width: 50%;
 }
 .rider-stories .fa-quote-left, .rider-stories .fa-quote-right {

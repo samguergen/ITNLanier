@@ -778,6 +778,50 @@ nav .dropdown-menu li a {
   /*display:none;*/
 }
 
+.faces #first-hero-faces {
+  background-image: url('../../images/itn-people-images/smiling-old-woman2.jpg');
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 400px;
+  opacity:0.5;
+}
+.faces #first-hero-faces h1{
+  color:white !important;
+  margin-top:170px !important;
+  margin-left: 5% !important;
+}
+.faces .container-wrapper {
+  width: 100%;
+  background: #399eaa;
+  float: left;
+  padding-top:50px;
+  padding-bottom:50px;
+}
+.faces .container {
+  border: 5px solid #fc6d6d5c;
+  background:#afcace;
+  text-align:center;
+  width: 70%;
+  margin: 0px auto 0px auto;
+  float: none;
+}
+.faces .container .title {
+  font-size: 35px;
+  font-style: italic;
+}
+.faces hr {
+  border: none;
+  height: 3px;
+  color: #fc6d6d;
+  background-color: #fc6d6d;
+  width: 50%;
+}
+.faces .container h3 {
+  margin-top:100px;
+  margin-bottom:25px;
+}
+
     
 #footer {
     width:100%;

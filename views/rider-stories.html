@@ -232,12 +232,15 @@
   <script src="../app.js"></script>
   <script>
       function readMore(divId) {
-        console.log('inside readmore func ', divId);
         var content = document.getElementById(divId);
         console.log('content is ', content);
+        var contentJq = $(content)[0];
+        console.log('contentjquery is ', content.nextElementSibling.nextElementSibling.nextElementSibling);
+        // console.log('contentjquery is ', contentJq.closest('button'));
         if (content.style.display === "none") {
           console.log('to block');
             content.style.display = "block";
+            // content.innerText
         } else {
           console.log('to none');
             content.style.display = "none";

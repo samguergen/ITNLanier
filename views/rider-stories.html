@@ -161,8 +161,8 @@
                     <p>A couple of weeks ago I received a call from Robert after one of his appointments and he gave me the wonderful news that he had been cleared for driving. Then, he got choked up and said, "This has been such a wonderful service. It relieved me of so much worry... It has filled a hole in my life. I never expected to make a new friend and I plan on taking myself to the produce market every Wednesday from now on."</p>
 
                     <p>After the two of us got past our tearing up, Robert asked if he could donate whatever money was left in his Personal Transportation Account back to ITN. So naturally, I teared up again. We have only been in operation since January and it was so touching that our volunteers could make such a big impact in so little time.</p>
-                      <i class="fa fa-quote-right" aria-hidden="true"></i> 
-                  </div>
+                    </div>
+                    <i class="fa fa-quote-right" aria-hidden="true"></i> 
                 </p>
                 <button onclick="readMore('samText')" class="btn btn-primary btn-lg mt-25">READ MORE</button>
               </div>
@@ -233,17 +233,13 @@
   <script>
       function readMore(divId) {
         var content = document.getElementById(divId);
-        console.log('content is ', content);
-        var contentJq = $(content)[0];
-        console.log('contentjquery is ', content.nextElementSibling.nextElementSibling.nextElementSibling);
-        // console.log('contentjquery is ', contentJq.closest('button'));
+        var buttonText = content.nextElementSibling.nextElementSibling.nextElementSibling.innerText;
         if (content.style.display === "none") {
-          console.log('to block');
             content.style.display = "block";
-            // content.innerText
+            content.nextElementSibling.nextElementSibling.nextElementSibling.innerText = "READ LESS";
         } else {
-          console.log('to none');
             content.style.display = "none";
+            content.nextElementSibling.nextElementSibling.nextElementSibling.innerText = "READ MORE";
         }
     }
   </script>

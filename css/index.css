@@ -821,6 +821,11 @@ nav .dropdown-menu li a {
   margin-top:100px;
   margin-bottom:25px;
 }
+.faces .container .end-note {
+  margin-top: 50px;
+  font-weight: bold;
+  font-style: italic;
+}
 
     
 #footer {

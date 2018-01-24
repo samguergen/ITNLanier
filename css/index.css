@@ -827,6 +827,20 @@ nav .dropdown-menu li a {
   font-style: italic;
 }
 
+.member-programs #first-hero-member {
+  background-image: url('../../images/itn-people-images/group.png');
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 400px;
+  opacity:0.5;
+}
+.member-programs #first-hero-member h1{
+  color:white !important;
+  margin-top:170px !important;
+  margin-left: 5% !important;
+}
+
     
 #footer {
     width:100%;

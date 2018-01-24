@@ -130,8 +130,24 @@
       </div><!--donate-intro-->
       
       <div class="jumbotron section">
+        
+        <ul class="nav nav-tabs" style="margin-left:5%">
+          <li class="nav-item">
+            <a class="nav-link active" href="#donate-card">Donate By Card</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#donate-check">Donate By Check</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#donate-car">Donate Your Car</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact-us">Contact us</a>
+          </li>
+        </ul>
+        
         <div class="container">
-          <div class="row donate-type">
+          <div class="row donate-type" id="donate-card">
             <div class="col-sm-8 description">
               <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top" style="text-align:center">
               	<input name="cmd" type="hidden" value="_s-xclick" /> 
@@ -146,7 +162,7 @@
             </div>
           </div><!--row-->
           
-          <div class="row donate-type">
+          <div class="row donate-type" id="donate-check">
             <div class="col-sm-4">
               <h2>Donate By Check</h2>
               <hr align="center" width="35%">
@@ -162,7 +178,7 @@
             </div><!--description-->
           </div><!--donate-type-->
           
-          <div class="row donate-type">
+          <div class="row donate-type" id="donate-car">
             
             <div class="col-sm-8 description">
               <p>Donate your car and we will give you the value in ride credits, or donate to help support ITNLanier.</p> 
@@ -176,7 +192,7 @@
                 
           <div class="row"></div>
             
-            <div class="form-area" style="width:70%;margin:auto;margin-top:50px">  
+            <div class="form-area" id="contact-us" style="width:70%;margin:auto;margin-top:50px">  
                   <form action="mailto:info@itnlanier.org" method="post" enctype="text/plain">
                 <br style="clear:both">
                   <h3 style="margin-bottom: 25px; text-align: center; color:#fc6d6d">Contact us</h3>

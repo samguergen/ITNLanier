@@ -393,16 +393,9 @@ nav .dropdown-menu li a {
     border: 2px solid #8f8fb66b;
     border-radius: 5px;
 }
-
-
 .donate .section {
   background:white;
 }
-.donate .donate-intro {
-  background: #fc6d6d;
-  color:white;
-}
-
 .donate .first-hero {
   background-image: url('../../images/itn-people-images/woman-cheek.jpg') !important;
   background-position: center center !important;
@@ -416,7 +409,12 @@ nav .dropdown-menu li a {
   margin-top:170px;
   margin-left: 5%;
 }
-
+.donate .donate-intro {
+  background: #fc6d6d;
+  color:white;
+}
+.donate .donate-intro p{  font-size:25px; }
+.donate .nav-tabs li a { font-size:20px }
 .donate .donate-type {
   background: #f8fafa;
   padding: 25px;
@@ -840,6 +838,37 @@ nav .dropdown-menu li a {
   margin-top:170px !important;
   margin-left: 5% !important;
 }
+.member-programs .intro-wrapper {
+  background:#afcace;
+  color:white;
+}
+.member-programs .intro {
+  width: 90%;
+  text-align: center;
+  line-height: 2;
+  margin-left: auto;
+  margin-right: auto;
+}
+.member-programs .featurettes {
+  background: white;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  float: none;
+}
+.member-programs .featurette-image {
+  height: 250px;
+}
+.member-programs .featurettes .featurette-divider {
+  margin: 80px 0; /* Space out the Bootstrap <hr> more */
+}
+/* Thin out the marketing headings */
+.member-programs .featurettes .featurette-heading {
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -1px;
+}
+
 
     
 #footer {

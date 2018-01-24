@@ -772,6 +772,9 @@ nav .dropdown-menu li a {
 .rider-stories .fa-quote-left, .rider-stories .fa-quote-right {
   font-size: 50px;
 }
+.rider-stories .extra-text {
+  display:none;
+}
 
     
 #footer {

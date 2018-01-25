@@ -992,20 +992,20 @@ margin-left: -10%;
   margin-top:170px !important;
   margin-left: 5% !important;
 }
-.non-rider h3 {
+.non-riderm h3, .contact h3 {
   text-align: center;
   line-height: 2;
   font-size: 26px;
   color:#399eaa
 }
-.non-rider hr {
+.non-rider hr, .contact hr {
   width:35%;
   border: none;
   height: 5px;
   color: #fc6d6d;
   background-color: #fc6d6d;
 }
-.non-rider input[type="text"] {
+.non-rider input[type="text"], .contact input[type="text"] {
   height: 50px !important;
   margin-top: 20px;
   margin-bottom: 10px;

@@ -979,6 +979,38 @@ margin-left: -10%;
   margin-top: 50px;
 }
 
+.non-rider #first-hero-rider {
+  background-image: url('../images/itn-people-images/young-dude3.jpg');
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 400px;
+  opacity:0.5;
+}
+.non-rider #first-hero-rider h1{
+  color:#399eaa !important;
+  margin-top:170px !important;
+  margin-left: 5% !important;
+}
+.non-rider h3 {
+  text-align: center;
+  line-height: 2;
+  font-size: 26px;
+  color:#399eaa
+}
+.non-rider hr {
+  width:35%;
+  border: none;
+  height: 5px;
+  color: #fc6d6d;
+  background-color: #fc6d6d;
+}
+.non-rider input[type="text"] {
+  height: 50px !important;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
 
     
 #footer {

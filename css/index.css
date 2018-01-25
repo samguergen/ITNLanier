@@ -1214,5 +1214,8 @@ margin-left: -10%;
     margin-left:auto !important;
     margin-right:auto !important;
   }
+  nav .navbar-right {
+    margin-top: 0px !important;
+  }
   
 }

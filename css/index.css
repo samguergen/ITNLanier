@@ -503,16 +503,6 @@ nav .dropdown-menu li a {
   border-radius: 5px;
   padding: 50px;
 }
-/*.community .comm-slogan .container .row {
-  display:table;
-}
-.community .comm-slogan .container .row .descri{
-  display:table-cell;
-}
-.community .comm-slogan .container .row .icon{
-  display:table-cell;
-  text-align:center;
-}*/
 .community .comm-slogan h2 {
   text-align:justify;
   color: #fc6d6d;
@@ -882,15 +872,28 @@ nav .dropdown-menu li a {
   margin-top:170px !important;
   margin-left: 5% !important;
 }
-.family .container {
+.family .jumbotron, .family .container {
+  width: 100%;
   background:white;
-  margin-left: 0 !important;
-  margin-right: 0 !important;
-  padding-left: 0 !important;
-  padding-right: 0 !important;
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
 }
-.family .carousel-control {
+.family .title h2 {
+  color: #399eaa
+}
+.family .title hr {
+  border: none;
+  height: 5px;
+  color: #fc6d6d;
+  background-color: #fc6d6d;
+}
+.family .carousel-control.left {
   background-image: linear-gradient(to right, #389eaa 0%, rgba(0, 0, 0, .0001) 100%);
+}
+.family .carousel-control.right {
+  background-image: linear-gradient(to left, #389eaa 0%, rgba(0, 0, 0, .0001) 100%);
 }
 .family .carousel-inner {
   overflow: visible !important;
@@ -914,6 +917,9 @@ padding: 50px;
 }
 .family .text-carousel img {
 position:absolute;
+}
+.family #gift-cert-img1 {
+  height:400px;
 }
 .family #gift-cert-img2 {
 margin-top: -100px;

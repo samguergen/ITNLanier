@@ -926,7 +926,58 @@ margin-top: -100px;
 margin-left: -10%;
 }
 
-
+.pay-online #first-hero-pay-online {
+  background-image: url('../../images/itn-people-images/people-paying.jpg');
+  background-position: center bottom;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 400px;
+  opacity:0.5;
+}
+.pay-online #first-hero-pay-online h1{
+  color:white !important;
+  margin-top:170px !important;
+  margin-left: 5% !important;
+}
+.pay-online .container {
+  padding-left: 5%;
+  padding-right:5$;
+  padding-bottom:50px;
+}
+.pay-online .title {
+  float: left;
+  width: 100%;
+  margin-bottom: 50px;
+}
+.pay-online .title h2 {
+  color: #399eaa;
+}
+.pay-online .title hr {
+  width:35%;
+  border: none;
+  height: 5px;
+  color: #fc6d6d;
+  background-color: #fc6d6d;
+}
+.pay-online .pay-online-content {
+  font-size: 20px;
+  line-height: 2;
+  margin-right:5%;
+}
+.pay-online .pay-online-content form{
+  overflow: hidden;
+  padding: 3%;
+  border: 3px solid #399eaa;
+  border-radius: 5px;
+  background:#afcace;
+}
+.pay-online .pay-online-content select, .pay-online .pay-online-content .rider-name{
+  width:300px;
+}
+.pay-online .pay-online-content .paypal {
+  width: 300px;
+  margin-top: 50px;
+}
 
 
     

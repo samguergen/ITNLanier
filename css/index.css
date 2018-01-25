@@ -869,7 +869,72 @@ nav .dropdown-menu li a {
   letter-spacing: -1px;
 }
 
-
+.family #first-hero-family {
+  background-image: url('../../images/itn-people-images/old-young.jpg');
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 400px;
+  opacity:0.5;
+}
+.family #first-hero-family h1{
+  color:white !important;
+  margin-top:170px !important;
+  margin-left: 5% !important;
+}
+.family .container {
+  background:white;
+  /*padding-left: 15%;
+  padding-right: 15%;*/
+}
+.family .member-help-title h2 {
+  color: #399eaa
+}
+.family .member-help-title hr {
+  border: none;
+  height: 5px;
+  color: #fc6d6d;
+  background-color: #fc6d6d;
+}
+.family .member-help {
+  position: absolute;
+  margin-top: -50%;
+  width: 50%;
+  margin-left: 5%;
+}
+.family .member-help p {
+  font-weight: bold;
+  color:#399eaa;
+  font-size:25px;
+}
+.family img#member-help-img {
+  width:100%;
+  opacity:0.9
+}
+.family .gift-cert-title h2 {
+  color: #399eaa
+}
+.family .gift-cert-title hr {
+  border: none;
+  height: 5px;
+  color: #fc6d6d;
+  background-color: #fc6d6d;
+}
+.family .gift-cert {
+  position: absolute;
+  margin-top: -30%;
+  width: 50%;
+  margin-left: 5%;
+}
+.family .gift-cert p {
+  font-weight: bold;
+  color:#399eaa;
+  font-size:25px;
+}
+.family img#gift-cert-img {
+  width:70%;
+  opacity:0.7;
+}
     
 #footer {
     width:100%;

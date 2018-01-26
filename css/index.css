@@ -93,7 +93,7 @@ nav .dropdown-menu li a {
 }
 
 .section-content {
-  width: 90%;
+  width: 70%;
   margin-left: auto;
   margin-right: auto;
 }
@@ -181,9 +181,11 @@ nav .dropdown-menu li a {
   font-size:50px;
 }
 
-.homepage .mission h2 {margin-bottom: 2%;}
-
-.homepage .mission h4 {line-height: 1.7;}
+.homepage .mission h4 {
+  margin-top:25px;
+  line-height: 1.7;
+  font-size:25px;
+}
 
 .homepage .progress {
   /*min-height: 200px;
@@ -212,6 +214,7 @@ nav .dropdown-menu li a {
 
 .homepage .progress .progress-steps .numbers{
   margin-bottom: -7%;
+  font-size: 50px;
 }
 
 .homepage .rider-stories {

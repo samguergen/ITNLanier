@@ -241,6 +241,7 @@ nav .dropdown-menu li a {
   background-size: cover;
   background-repeat: no-repeat;
   height: 400px;
+  opacity:0.5;
 }
 
 .services .first-hero h1{
@@ -295,6 +296,9 @@ nav .dropdown-menu li a {
 .services .service-features .col-sm-4 .icon-wrap {
   font-size: 50px;
 }
+.services .service-features .col-sm-4 .icon-wrap .fa {
+  font-size: 70px;
+}
 .services .service-features .col-sm-4 .icon-legend {
   margin-top: 7%;
   font-weight: bold;
@@ -324,6 +328,7 @@ nav .dropdown-menu li a {
   overflow: hidden;
   height: 250px;
   width: 250px;
+  margin:20px auto 20px auto;
 }
 
 

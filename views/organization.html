@@ -13,7 +13,7 @@
   <script src="../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
   <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.css">
   
-  <link rel="stylesheet" href="../css/index.css?version=12">
+  <link rel="stylesheet" href="../css/index.css?version=13">
 </head>
 
 
@@ -54,6 +54,7 @@
               <ul class="dropdown-menu">
                 <li><a href="services.html">What We Do</a></li>
                 <li><a href="organization.html">Our Organization</a></li>
+                <li><a href="faces.html">Faces of our Members</a></li>
                 <li><a href="faq.html">FAQ</a></li>
                 <li><a href="rider-stories.html">Unique Rider Stories</a></li>
                 <li role="separator" class="divider"></li>
@@ -71,13 +72,20 @@
                 CONTACT
               </a>
             </li>
-          
-            
-            
-            <li>
-              <a href="#"><i class="fa fa-car"></i> 
+              
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                <i class="fa fa-car"></i>
                 RIDE WITH US
-              </a>
+                <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="member-app.html">Online Member Application</a></li>
+                <li><a href="volunteer-to-drive.html">Volunteer To Drive</a></li>
+                <li><a href="non-rider-member.html">Non-Rider Member Application</a></li>
+                <li><a href="family.html">Family Involvment</a></li>
+                <li><a href="member-programs.html">Member Programs</a></li>
+                <li><a href="pay-online.html">Pay Online</a></li>
+              </ul>
             </li>
             
             <li class="dropdown">
@@ -93,7 +101,7 @@
             </li>
             
             <li>
-              <a href="payment.html"><span class="glyphicon glyphicon-usd"></span> 
+              <a href="pay-online.html"><span class="glyphicon glyphicon-usd"></span> 
                 MAKE A PAYMENT
               </a>
             </li>
@@ -131,8 +139,7 @@
         </ul>
       
       
-      
-      <div style="background: #399eaa24 !important">
+      <div class="section-container">
       <div class="container itn-green-bg">
       <section class="org-section" id="board">
         <h1>BOARD OF DIRECTORS</h1>
@@ -141,9 +148,9 @@
             <img src="../images/board/Jerry_Butler.png"/>
             <h2>Jerry Butler</h2>
             <p class="title">Chair and Treasurer</p>
-            <button type="button" class="btn btn-lg">READ MORE</button>
+            <button type="button" class="btn btn-lg" onclick="readMore('board-bio1')">READ MORE</button>
             
-            <div class="board-bio">
+            <div class="board-bio" id="board-bio1">
               <p>Jerry L. Butler is a retired technology executive from the computer and communications industry.  He spent his career forming and building high performance teams to conceive and develop innovative products.  <br> He recently retired from NCR Corporation and has lead engineering teams at large as well as new start-up companies.  He is an electrical engineering graduate of Georgia Tech.</p>
             </div>
           </div>
@@ -152,9 +159,9 @@
             <img src="../images/board/Kathy_Oates.jpg"/>
             <h2>Kathy K. Oates</h2>
             <p class="title">Secretary</p>
-            <button type="button" class="btn btn-lg">READ MORE</button>
+            <button type="button" class="btn btn-lg" onclick="readMore('board-bio2')">READ MORE</button>
             
-            <div class="board-bio">
+            <div class="board-bio" id="board-bio2">
               <p>Kathy Kirkpatrick Oates is a retired Special Education teacher.  Now she supervises student teachers for UNG part time.  She is a native of Gainesville who enjoys volunteering at the NEGA Medical Center and NEGA History Center.  Her family has deep roots in Gainesville and she is glad to have more time now to give back to her community.  <br> After being very involved with her late mother’s care, she knows firsthand what is needed for transporting seniors who need drivers.  Kathy is married to Richard and they have 2 grown sons.  More importantly, they have grand twins–identical toddler boys.</p>
             </div>
           </div>
@@ -163,9 +170,9 @@
             <img src="../images/board/Julia_Greene.jpg"/>
             <h2>Julia K. Greene</h2>
             <p class="title">Board Member</p>
-            <button type="button" class="btn btn-lg">READ MORE</button>
+            <button type="button" class="btn btn-lg" onclick="readMore('board-bio3')">READ MORE</button>
             
-            <div class="board-bio">
+            <div class="board-bio" id="board-bio3">
               <p>Julia K. Greene joined Stewart Melvin & Frost in January of 2014, concentrating her practice in family law and civil litigation. She received her undergraduate degree from Agnes Scott College and her law degree from the University of Georgia School of Law. She began her law career in 2005 as the staff attorney for the Honorable Kathlene F. Gosselin, Judge of the Superior Courts of Hall and Dawson Counties. As a staff attorney, Julia worked on all areas of civil litigation, domestic matters and criminal cases.</p>
 
               <p>Julia is active in the community currently serving on the Quinlan Visual Arts Center board and she is a member of the Grace Episcopal Church Vestry. She is the Past-President of the Junior League of Gainesville-Hall County. She was a member of the Leadership Hall County class of 2008-2009. She is a member of the Orr Inn of Court, having previously served as secretary-treasurer. She previously has served on the Agnes Scott Alumnae Board, Habitat for Humanity Woman Build Board, North Georgia AIDS Alliance, the Northeast Georgia Speech Center and as President of the Lakeview Academy Alumni Association.</p>
@@ -180,9 +187,9 @@
             <img src="../images/board/emily_mccord.jpg"/>
             <h2>Emily McCord, LMFT</h2>
             <p class="title">Board Member</p>
-            <button type="button" class="btn btn-lg">READ MORE</button>
+            <button type="button" class="btn btn-lg" onclick="readMore('board-bio4')">READ MORE</button>
             
-            <div class="board-bio">
+            <div class="board-bio" id="board-bio4">
               <p>Emily joined the Kimbrough Law Firm in 2016. Originally from Georgia, Emily completed her undergraduate degree at the University of Georgia and her Masters in Marriage and Family Therapy from Mercer University School of Medicine. For several years, Emily worked as a counselor at Medical Center of Central Georgia for the Palliative Care Team. She also served as a counselor for the Psychiatric Unit of Coliseum Hospital.</p>
 
               <p>Emily began her career in Elder Care Coordination in 2011 when she joined a firm in Nashville, Tennessee. Emily has a passion for improving quality of life. She spends her time at Kimbrough Law Firm working with the client, families, and the team to develop a plan of care that will maximize the client’s independence while coordinating and advocating for the most comprehensive care available.</p>
@@ -193,9 +200,9 @@
             <img src="../images/board/Patrick_ORouke.jpg"/>
             <h2>Patrick O’Rouke</h2>
             <p class="title">Board Member</p>
-            <button type="button" class="btn btn-lg">READ MORE</button>
+            <button type="button" class="btn btn-lg" onclick="readMore('board-bio5')">READ MORE</button>
             
-            <div class="board-bio">
+            <div class="board-bio" id="board-bio5">
               <p>Patrick O’Rouke is a Fisheries Biologist with Georgia Power.  As part of Georgia Power’s Environmental Affairs department, he is responsible for fisheries and compliance issues across the state related to company operations.  Prior to joining Georgia Power, he was the biologist responsible for managing Lake Lanier for the Georgia Department of Natural Resources. <br> Patrick and his wife, Tate, have been living in Hall County since 2011 and in 2014 welcomed twin sons, Wright and Benson.  Patrick is a member of Grace Episcopal Church and a 2013-2014 graduate of Leadership Hall County.  He currently serves on the Youth Leadership Hall County Planning Team.  Patrick is a native of Sugar Hill, GA and holds a BSFR from the University of Georgia and a MS from the University of Florida.<p>
             </div>
           </div>
@@ -204,9 +211,9 @@
             <img src="../images/board/Keith_Guernsey.jpg"/>
             <h2>Keith Guernsey</h2>
             <p class="title">Board Member</p>
-            <button type="button" class="btn btn-lg">READ MORE</button>
+            <button type="button" class="btn btn-lg" onclick="readMore('board-bio6')">READ MORE</button>
             
-            <div class="board-bio">
+            <div class="board-bio" id="board-bio6">
               Keith D. Guernsey is retired after a 40 year career in sales and sales management with Data General, Cahners Publishing, Motorola and Comcast. He lives on Lake Lanier with his wife Susan and four-footed son Harley. He is the author of two popular, successful books. He is currently working with Meals on Wheels and the Cresswind Performing Arts Club. He is honored to have been elected to the board of directors of ITNLanier. He enjoys reading, writing and traveling with his family.
             </div>
           </div><!--col-sm-4-->
@@ -218,47 +225,35 @@
             <img src="../images/board/jeff_rock.jpg"/>
             <h2>Jeff Rock</h2>
             <p class="title">Board Member</p>
-            <button type="button" class="btn btn-lg">READ MORE</button>
+            <button type="button" class="btn btn-lg" onclick="readMore('board-bio7')">READ MORE</button>
             
-            <div class="board-bio">
+            <div class="board-bio" id="board-bio7">
               Jeff Rock and his wife Nancy have been residents of Hall County for the past five years. Jeff recently retired from Acts Retirement-Life Communities, where he served as the executive director of Lanier Village Estates, a Continuing Care Retirement Community serving six-hundred seniors on the campus located in Gainesville, GA. Jeff has been employed in the senior housing industry for the past forty-three years.
 
               Jeff has been involved with iTNLanier since 2013 serving as a member of the Advisory Council and also serves as a volunteer driver with iTNLanier. Jeff serves on the Hall County Council on Aging Board of Directors and also serves on the Northeast Georgia Health System Advisory Board.
             </div>
           </div>
         </div><!--row-->
-        
       </section>
-    <!-- </div> -->
-    <!--container-->  
     
-    
-    
-    
-    
-      <!-- <div class="container itn-green-bg"> -->
       <section class="org-section" id="start">
         <h1>Start your own ITN</h1>
         <div class="jumbotron section copy itn-lightgreen-bg">
-          <!-- <div class="container"> -->
             <div class="col-sm-9">              
               <p style="font-size:25px; font-style:italic">Independent Transportation Network® is an original worth copying</p>
             </div>
             <div class="col-sm-3">
               <img style="height:150px" src="../images/icons/cat-icon.png"/>
             </div>
-          <!-- </div> -->
-          <!--container-->
         </div><!--jumbo-->
           
         <div class="jumbotron section national">
-          <!-- <div class="container"> -->
             <div class="row">
               <div class="col-sm-9" style="background: rgba(255,255,255,0.6);">
                 <h2>The Power of a National Network</h2>
                   <p>Just as Independent Transportation Network ® (ITN) unites older people with their communities, ITNAmerica unites communities across the country.
 
-                  ITNAmerica works with organizations and individuals to help develop dignified and sustainable transportation in communities across the country. We welcome your interest, and hope you will consider the benefits of having an ITN affiliate in your local area. To learn more about starting your own affiliate, click here.</p>
+                  ITNAmerica works with organizations and individuals to help develop dignified and sustainable transportation in communities across the country. We welcome your interest, and hope you will consider the <a href="services.html">benefits</a> of having an ITN affiliate in your local area. To learn more about starting your own affiliate, <a href="contact.html">click here.</a></p>
               </div><!--national-->
             </div><!--row-->
           </div><!--national-->
@@ -276,15 +271,9 @@
                 <p>ITN is quickly linking cities and citizens across the country and that's just the beginning. Soon, ITN will grow beyond the cities and suburbs to the small towns and rural communities where the unmet need is so great. Our goal is to provide the expertise, tools and state-of-the-art technology that will allow small organizations to serve more and more people without additional resources or funds. We call this project ITNEverywhere</p>
               </div>
             </div><!--row-->
-          <!-- </div> -->
-          <!--container-->
         </div><!--jumbo-->
-          
           </section>
-        <!-- </div> -->
-        <!--container-->  
-      
-        <!-- <div class="container itn-green-bg"> -->
+
           <section class="org-section" id="staff"><h1>Staff</h1></section>
         </div><!--container-->  
     
@@ -348,7 +337,7 @@
   
 </div>
   <script src="../app.js"></script>
-  <script>
+  <!-- <script>
     $(document).ready(function(){
       $('#board .row button').click(function(event){
         var board_bio_proto = $(event.target).closest('div').find('.board-bio');
@@ -357,6 +346,20 @@
         // .css( "display", "block" );
       })
     })
+  </script> -->
+  <script>
+      function readMore(divId) {
+        var content = document.getElementById(divId);
+        console.log(content);
+        // var buttonText = content.nextElementSibling.nextElementSibling.nextElementSibling.innerText;
+        if (content.style.display === "none") {
+            content.style.display = "block";
+            // content.nextElementSibling.nextElementSibling.nextElementSibling.innerText = "READ LESS";
+        } else {
+            content.style.display = "none";
+            // content.nextElementSibling.nextElementSibling.nextElementSibling.innerText = "READ MORE";
+        }
+    }
   </script>
 </body>
 </html>

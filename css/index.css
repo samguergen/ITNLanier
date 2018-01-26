@@ -72,14 +72,21 @@ nav .dropdown-menu {
 nav .dropdown-menu li {
   padding:5px;
 }
+nav .dropdown-menu li a:hover{
+  background:#afcace;
+  border-radius:5px;
+}
 nav .dropdown-menu li a {
   color:white !important;
   font-weight: bold !important;
 }
-
+nav .dropdown-menu li.divider{
+  padding: 0 !important;
+}
 .jumbotron {margin-bottom: 0 !important;}
 
 .main {
+  min-height: 500px;
   overflow: hidden;
   width: 100%;
   padding-bottom:200px;   /* Height of the footer element */
@@ -93,7 +100,7 @@ nav .dropdown-menu li a {
 }
 
 .section-content {
-  width: 90%;
+  width: 70%;
   margin-left: auto;
   margin-right: auto;
 }
@@ -111,8 +118,7 @@ nav .dropdown-menu li a {
 
 .carousel-inner .item {
     width: 100%;
-    height: 400px;
-    width: 1000px; /* change to responsive */
+    height: 500px;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -121,8 +127,9 @@ nav .dropdown-menu li a {
 
 .carousel-inner .item img{
   width: 100%;
-  height: 400px;
-  margin-left:6%; /*change to some auto */
+  height: 500px;
+  /*margin-left:6%;*/
+  margin-left:auto;
   margin-right:auto;
   z-index: 10;
 }
@@ -134,6 +141,8 @@ nav .dropdown-menu li a {
   color:white;
   width:60%;
   text-align:left;
+  font-size: 40px;
+  line-height: 1.6;
 }
 
 .homepage .hp-first .features{
@@ -141,52 +150,45 @@ nav .dropdown-menu li a {
   margin-left: auto;
   margin-right: auto;
 }
-
 .homepage .hp-first .features .feature-icon{
   text-align:center;
   border-radius: 100%;
-  height: 150px;
-  width: 150px;
+  height: 200px;
+  width: 200px;
   color:white;
   margin-left:auto;
   margin-right:auto;
 }
-
-.homepage .hp-first .features .feature-icon .fa-car{
+.homepage .hp-first .features .feature-icon .fa{
   font-size: 60px;
-  line-height: 150px;
+  line-height: 200px;
 }
-
-.homepage .hp-first .features .feature-icon .fa-heart{
-  font-size: 60px;
-  line-height: 150px;
-}
-
-.homepage .hp-first .features .feature-icon .fa-dollar{
-  font-size: 60px;
-  line-height: 150px;
-}
-
 .homepage .hp-first .features h6 {
   text-align: center;
+  font-size:20px;
+  margin-top:20px;
 }
-
-.homepage .hp-first .features .feature-description {margin-top: 10%;}
-
+.homepage .hp-first .features .feature-description {
+  margin-top: 10%;
+  font-size: 18px;
+  line-height: 2;
+  text-align: center;
+  padding-left: 15px;
+  padding-right: 15px;
+}
 .homepage .mission {
   text-align: center;
   background-color: #399eaa;
   color: white;
   font-size:50px;
 }
-
-.homepage .mission h2 {margin-bottom: 2%;}
-
-.homepage .mission h4 {line-height: 1.7;}
-
+.homepage .mission h4 {
+  margin-top:25px;
+  line-height: 1.7;
+  font-size:25px;
+}
 .homepage .progress {
-  /*min-height: 200px;
-  max-height: 300px;*/
+
   height: 300px;
   font-size: 40px;
   color: white;
@@ -195,12 +197,10 @@ nav .dropdown-menu li a {
   background-size: cover;
   background-position: center;
 }
-
 .homepage .progress h1 {
   text-align:center;
   font-size: 50px;
 }
-
 .homepage .progress .progress-steps{
   margin-top: 3%;
   text-align: center;
@@ -208,29 +208,34 @@ nav .dropdown-menu li a {
   margin-left:auto;
   margin-right:auto;
 }
-
 .homepage .progress .progress-steps .numbers{
   margin-bottom: -7%;
+  font-size: 50px;
 }
-
 .homepage .rider-stories {
   background: #afcace;
 }
-
 .homepage .rider-stories .rider-stories-text {
   background: #f8fafa;
   color: #666666;
   padding: 26px 39px;
+  border: 5px solid #529ba8;
   border-radius: 4px;
-  margin-left: 1%;
-  margin-right: 1%;
+  margin-left: 2%;
+  margin-right: 2%;
 }
-
+.homepage .rider-stories .rider-stories-text h4 {
+  line-height: 1.6;
+  font-size:20px;
+  margin-bottom: 20px;
+}
+.homepage .rider-stories .rider-stories-text p {
+  text-align:center;
+}
 .homepage .regeneron {
   background: white;
   font-size: 20px;
 }
-
 .homepage .regeneron h2 {
   margin-bottom:2%;
 }
@@ -243,6 +248,7 @@ nav .dropdown-menu li a {
   background-size: cover;
   background-repeat: no-repeat;
   height: 400px;
+  opacity:0.5;
 }
 
 .services .first-hero h1{
@@ -297,6 +303,9 @@ nav .dropdown-menu li a {
 .services .service-features .col-sm-4 .icon-wrap {
   font-size: 50px;
 }
+.services .service-features .col-sm-4 .icon-wrap .fa {
+  font-size: 70px;
+}
 .services .service-features .col-sm-4 .icon-legend {
   margin-top: 7%;
   font-weight: bold;
@@ -326,6 +335,7 @@ nav .dropdown-menu li a {
   overflow: hidden;
   height: 250px;
   width: 250px;
+  margin:20px auto 20px auto;
 }
 
 
@@ -393,16 +403,9 @@ nav .dropdown-menu li a {
     border: 2px solid #8f8fb66b;
     border-radius: 5px;
 }
-
-
 .donate .section {
   background:white;
 }
-.donate .donate-intro {
-  background: #fc6d6d;
-  color:white;
-}
-
 .donate .first-hero {
   background-image: url('../../images/itn-people-images/woman-cheek.jpg') !important;
   background-position: center center !important;
@@ -416,7 +419,12 @@ nav .dropdown-menu li a {
   margin-top:170px;
   margin-left: 5%;
 }
-
+.donate .donate-intro {
+  background: #fc6d6d;
+  color:white;
+}
+.donate .donate-intro p{  font-size:25px; }
+.donate .nav-tabs li a { font-size:20px }
 .donate .donate-type {
   background: #f8fafa;
   padding: 25px;
@@ -505,16 +513,6 @@ nav .dropdown-menu li a {
   border-radius: 5px;
   padding: 50px;
 }
-/*.community .comm-slogan .container .row {
-  display:table;
-}
-.community .comm-slogan .container .row .descri{
-  display:table-cell;
-}
-.community .comm-slogan .container .row .icon{
-  display:table-cell;
-  text-align:center;
-}*/
 .community .comm-slogan h2 {
   text-align:justify;
   color: #fc6d6d;
@@ -559,7 +557,7 @@ nav .dropdown-menu li a {
   margin-right: auto;
   font-size: 18px;
   padding-left: 10px;
-  background: #399eaa24 !important;
+  background: white;
 }
 .organization .nav-tabs li {
   padding-top: 15px;
@@ -572,6 +570,11 @@ nav .dropdown-menu li a {
 .organization .container section {
   background:white;
   margin-bottom:50px;
+}
+.organization .section-container {
+  padding-top: 50px !important;
+  padding-bottom: 50px !important;
+  background: #399eaa24 !important;
 }
 #board h1, .org-section h1 {
   text-align:center;
@@ -606,14 +609,18 @@ nav .dropdown-menu li a {
   margin: 15px;
   padding: 1em 2em;
 }
+#board .btn-lg {
+  background:white;
+}
 #board .row .board-bio{
   display:none;
   font-size: 20px;
   line-height: 1.5;
   padding: 5px;
   margin-top: 20px;
-  width: 200%;
-  margin-left: -50%;
+  width:100$;
+  /*width: 200%;
+  margin-left: -50%;*/
 }
 .org-section {
   overflow:hidden;
@@ -632,6 +639,398 @@ nav .dropdown-menu li a {
   background-repeat: no-repeat;
   border-radius: 0 !important;
  }
+
+
+ .faq #first-hero-faq {
+   /*background-image: url('../../images/backgrounds/background-faq.jpg');*/
+   background-image: url('../../images/itn-people-images/woman-cheek.jpg');
+   background-position: center center;
+   background-size: cover;
+   background-repeat: no-repeat;
+   height: 400px;
+   opacity:0.5;
+ }
+ .faq #first-hero-faq h1{
+   color:#399eaa !important;
+   margin-top:170px !important;
+   margin-left: 5% !important;
+ }
+ .faq .container {
+   float:left;
+   padding-top:25px;
+   padding-bottom:25px;
+   width: 100%;
+ }
+ .faq .questions-list {
+   background: #afcace;
+   border: 15px solid #debeb1;
+ }
+ .faq .questions-list ul {
+   list-style-type: none;
+ }
+ .faq .questions-list ul li {
+   font-size: 18px !important;
+   line-height: 2.2;
+ }
+ .faq .qa-wrapper {
+   background-image: url('../../images/backgrounds/background-faq.jpg');
+ }
+ .faq .qa {
+   float:left;
+ }
+.faq .question {
+  font-size: 22px;
+  font-weight: bold;
+  position: relative;
+  line-height: 120px;
+  padding: 0px 30px 0px 30px;
+  background: #ffffff;
+  border-radius: 10px;
+  display: inline-block;
+  margin-left: 5%;
+}
+
+.faq .question:after {
+   content: '';
+   position: absolute;
+   border-style: solid;
+   border-width: 13px 32px 13px 0;
+   border-color: transparent #ffffff;
+   display: block;
+   width: 0;
+   z-index: 1;
+   left: -32px;
+   top: 71px;
+}
+.faq .answer ul{
+  margin-bottom: 15px;
+  font-size: 21px;
+  font-weight: 200;
+  list-style-type: circle;
+}
+.faq .answer {
+  margin-top:20px;
+  margin-bottom:20px;
+  margin-left:10%;
+ position: relative;
+ padding: 30px;
+ background: #ffffff;
+ border-radius: 10px;
+ display:inline-block;
+}
+
+.faq .answer:after {
+   content: '';
+   position: absolute;
+   border-style: solid;
+   border-width: 13px 0 13px 32px;
+   border-color: transparent #ffffff;
+   display: block;
+   width: 0;
+   z-index: 1;
+   right: -32px;
+   top: 71px;
+}
+
+.rider-stories #first-hero-rider {
+  background-image: url('../../images/itn-people-images/smiling-old-woman.jpg');
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 400px;
+  opacity:0.5;
+}
+.rider-stories #first-hero-rider h1{
+  color:white !important;
+  margin-top:170px !important;
+  margin-left: 5% !important;
+}
+.rider-stories .intro {
+  width: 70%;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 2;
+  margin-bottom: 50px;
+  font-size: 25px;
+  color: #fc6d6d;
+}
+.rider-stories .cards-wrapper{
+  text-align: center;
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.rider-stories .card {
+  background: #fc6d6d57;
+  border: 5px solid #fc6d6d;
+  padding:30px;
+  /*width: 500px;*/
+}
+.rider-stories .card .card-img-top {
+  border-radius: 100%;
+}
+.rider-stories hr {
+  border: none;
+  height: 1px;
+  color: #fc6d6d;
+  background-color: #fc6d6d;
+  width: 50%;
+}
+.rider-stories .fa-quote-left, .rider-stories .fa-quote-right {
+  font-size: 50px;
+}
+.rider-stories .extra-text {
+  /*display:none;*/
+}
+
+.faces #first-hero-faces {
+  background-image: url('../../images/itn-people-images/smiling-old-woman2.jpg');
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 400px;
+  opacity:0.5;
+}
+.faces #first-hero-faces h1{
+  color:white !important;
+  margin-top:170px !important;
+  margin-left: 5% !important;
+}
+.faces .container-wrapper {
+  width: 100%;
+  background: #399eaa;
+  float: left;
+  padding-top:50px;
+  padding-bottom:50px;
+}
+.faces .container {
+  border: 5px solid #fc6d6d5c;
+  background:#afcace;
+  text-align:center;
+  width: 70%;
+  margin: 0px auto 0px auto;
+  float: none;
+}
+.faces .container .title {
+  font-size: 35px;
+  font-style: italic;
+}
+.faces hr {
+  border: none;
+  height: 3px;
+  color: #fc6d6d;
+  background-color: #fc6d6d;
+  width: 50%;
+}
+.faces .container h3 {
+  margin-top:100px;
+  margin-bottom:25px;
+}
+.faces .container .end-note {
+  margin-top: 50px;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.member-programs #first-hero-member {
+  background-image: url('../../images/itn-people-images/group.png');
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 400px;
+  opacity:0.5;
+}
+.member-programs #first-hero-member h1{
+  color:white !important;
+  margin-top:170px !important;
+  margin-left: 5% !important;
+}
+.member-programs .intro-wrapper {
+  background:#afcace;
+  color:white;
+}
+.member-programs .intro {
+  width: 90%;
+  text-align: center;
+  line-height: 2;
+  margin-left: auto;
+  margin-right: auto;
+}
+.member-programs .featurettes {
+  background: white;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  float: none;
+}
+.member-programs .featurette-image {
+  height: 250px;
+}
+.member-programs .featurettes .featurette-divider {
+  margin: 80px 0; /* Space out the Bootstrap <hr> more */
+}
+/* Thin out the marketing headings */
+.member-programs .featurettes .featurette-heading {
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -1px;
+}
+
+.family #first-hero-family {
+  background-image: url('../../images/itn-people-images/old-young.jpg');
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 400px;
+  opacity:0.5;
+}
+.family #first-hero-family h1{
+  color:white !important;
+  margin-top:170px !important;
+  margin-left: 5% !important;
+}
+.family .jumbotron, .family .container {
+  width: 100%;
+  background:white;
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+}
+.family .title h2 {
+  color: #399eaa
+}
+.family .title hr {
+  border: none;
+  height: 5px;
+  color: #fc6d6d;
+  background-color: #fc6d6d;
+}
+.family .carousel-control.left {
+  background-image: linear-gradient(to right, #389eaa 0%, rgba(0, 0, 0, .0001) 100%);
+}
+.family .carousel-control.right {
+  background-image: linear-gradient(to left, #389eaa 0%, rgba(0, 0, 0, .0001) 100%);
+}
+.family .carousel-inner {
+  overflow: visible !important;
+  width:500px;
+}
+.family .carousel-content {
+  margin-top:2%;
+  width:500px;
+  display:flex;
+  align-items:center;
+}
+.family .text-carousel {
+width: 100%;
+height: 500px;
+padding: 50px;
+}
+.family .text-carousel p {
+  color:#399eaa;
+  font-weight:bold;
+  font-size: 23px;
+}
+.family .text-carousel img {
+position:absolute;
+}
+.family #gift-cert-img1 {
+  height:400px;
+}
+.family #gift-cert-img2 {
+margin-top: -100px;
+margin-left: -10%;
+}
+
+.pay-online #first-hero-pay-online {
+  background-image: url('../../images/itn-people-images/people-paying.jpg');
+  background-position: center bottom;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 400px;
+  opacity:0.5;
+}
+.pay-online #first-hero-pay-online h1{
+  color:white !important;
+  margin-top:170px !important;
+  margin-left: 5% !important;
+}
+.pay-online .container {
+  padding-left: 5%;
+  padding-right:5$;
+  padding-bottom:50px;
+}
+.pay-online .title {
+  float: left;
+  width: 100%;
+  margin-bottom: 50px;
+}
+.pay-online .title h2 {
+  color: #399eaa;
+}
+.pay-online .title hr {
+  width:35%;
+  border: none;
+  height: 5px;
+  color: #fc6d6d;
+  background-color: #fc6d6d;
+}
+.pay-online .pay-online-content {
+  font-size: 20px;
+  line-height: 2;
+  margin-right:5%;
+}
+.pay-online .pay-online-content form{
+  overflow: hidden;
+  padding: 3%;
+  border: 3px solid #399eaa;
+  border-radius: 5px;
+  background:#afcace;
+}
+.pay-online .pay-online-content select, .pay-online .pay-online-content .rider-name{
+  width:300px;
+}
+.pay-online .pay-online-content .paypal {
+  width: 300px;
+  margin-top: 50px;
+}
+
+.non-rider #first-hero-rider {
+  background-image: url('../images/itn-people-images/young-dude3.jpg');
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 400px;
+  opacity:0.5;
+}
+.non-rider #first-hero-rider h1{
+  color:#399eaa !important;
+  margin-top:170px !important;
+  margin-left: 5% !important;
+}
+.non-riderm h3, .contact h3 {
+  text-align: center;
+  line-height: 2;
+  font-size: 26px;
+  color:#399eaa
+}
+.non-rider hr, .contact hr {
+  width:35%;
+  border: none;
+  height: 5px;
+  color: #fc6d6d;
+  background-color: #fc6d6d;
+}
+.non-rider input[type="text"], .contact input[type="text"] {
+  height: 50px !important;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+/*#first-name, #last-name, #city, #state, #phone, #zip, #email, #email-confirmation {
+  width:30%;
+}*/
 
 
     
@@ -761,7 +1160,19 @@ nav .dropdown-menu li a {
 .itn-lightgreen {color: #afcace !important}
 .itn-lightgreen-bg {background: #afcace !important}
 .mt-100 {margin-top:100px}
+.mt-50 {margin-top:50px}
+.mt-25 {margin-top:25px}
 .mb-100 {margin-bottom:100px}
+.mb-50 {margin-bottom:50px}
+.mb-25 {margin-bottom:25px}
+
+
+/* OFFICIAL WIDGETS */
+
+.btn-lg {
+  background: #529ba8;
+  border-color: white;
+}
 
 
 /* RESPONSIVE */
@@ -828,6 +1239,9 @@ nav .dropdown-menu li a {
     margin-bottom:-20px;
     margin-left:auto !important;
     margin-right:auto !important;
+  }
+  nav .navbar-right {
+    margin-top: 0px !important;
   }
   
 }

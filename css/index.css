@@ -143,7 +143,6 @@ nav .dropdown-menu li a {
   margin-left: auto;
   margin-right: auto;
 }
-
 .homepage .hp-first .features .feature-icon{
   text-align:center;
   border-radius: 100%;
@@ -153,18 +152,15 @@ nav .dropdown-menu li a {
   margin-left:auto;
   margin-right:auto;
 }
-
 .homepage .hp-first .features .feature-icon .fa{
   font-size: 60px;
   line-height: 200px;
 }
-
 .homepage .hp-first .features h6 {
   text-align: center;
   font-size:20px;
   margin-top:20px;
 }
-
 .homepage .hp-first .features .feature-description {
   margin-top: 10%;
   font-size: 18px;
@@ -173,23 +169,19 @@ nav .dropdown-menu li a {
   padding-left: 15px;
   padding-right: 15px;
 }
-
 .homepage .mission {
   text-align: center;
   background-color: #399eaa;
   color: white;
   font-size:50px;
 }
-
 .homepage .mission h4 {
   margin-top:25px;
   line-height: 1.7;
   font-size:25px;
 }
-
 .homepage .progress {
-  /*min-height: 200px;
-  max-height: 300px;*/
+
   height: 300px;
   font-size: 40px;
   color: white;
@@ -198,12 +190,10 @@ nav .dropdown-menu li a {
   background-size: cover;
   background-position: center;
 }
-
 .homepage .progress h1 {
   text-align:center;
   font-size: 50px;
 }
-
 .homepage .progress .progress-steps{
   margin-top: 3%;
   text-align: center;
@@ -211,30 +201,34 @@ nav .dropdown-menu li a {
   margin-left:auto;
   margin-right:auto;
 }
-
 .homepage .progress .progress-steps .numbers{
   margin-bottom: -7%;
   font-size: 50px;
 }
-
 .homepage .rider-stories {
   background: #afcace;
 }
-
 .homepage .rider-stories .rider-stories-text {
   background: #f8fafa;
   color: #666666;
   padding: 26px 39px;
+  border: 5px solid #529ba8;
   border-radius: 4px;
-  margin-left: 1%;
-  margin-right: 1%;
+  margin-left: 2%;
+  margin-right: 2%;
 }
-
+.homepage .rider-stories .rider-stories-text h4 {
+  line-height: 1.6;
+  font-size:20px;
+  margin-bottom: 20px;
+}
+.homepage .rider-stories .rider-stories-text p {
+  text-align:center;
+}
 .homepage .regeneron {
   background: white;
   font-size: 20px;
 }
-
 .homepage .regeneron h2 {
   margin-bottom:2%;
 }
@@ -1155,6 +1149,14 @@ margin-left: -10%;
 .mb-100 {margin-bottom:100px}
 .mb-50 {margin-bottom:50px}
 .mb-25 {margin-bottom:25px}
+
+
+/* OFFICIAL WIDGETS */
+
+.btn-lg {
+  background: #529ba8;
+  border-color: white;
+}
 
 
 /* RESPONSIVE */

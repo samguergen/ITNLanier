@@ -630,7 +630,8 @@ nav .dropdown-menu li a {
 
 
  .faq #first-hero-faq {
-   background-image: url('../../images/backgrounds/background-faq.jpg');
+   /*background-image: url('../../images/backgrounds/background-faq.jpg');*/
+   background-image: url('../../images/itn-people-images/woman-cheek.jpg');
    background-position: center center;
    background-size: cover;
    background-repeat: no-repeat;
@@ -650,7 +651,7 @@ nav .dropdown-menu li a {
  }
  .faq .questions-list {
    background: #afcace;
-   border: 15px solid white;
+   border: 15px solid #debeb1;
  }
  .faq .questions-list ul {
    list-style-type: none;
@@ -658,6 +659,9 @@ nav .dropdown-menu li a {
  .faq .questions-list ul li {
    font-size: 18px !important;
    line-height: 2.2;
+ }
+ .faq .qa-wrapper {
+   background-image: url('../../images/backgrounds/background-faq.jpg');
  }
  .faq .qa {
    float:left;

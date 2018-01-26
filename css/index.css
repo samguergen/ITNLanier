@@ -609,14 +609,18 @@ nav .dropdown-menu li.divider{
   margin: 15px;
   padding: 1em 2em;
 }
+#board .btn-lg {
+  background:white;
+}
 #board .row .board-bio{
   display:none;
   font-size: 20px;
   line-height: 1.5;
   padding: 5px;
   margin-top: 20px;
-  width: 200%;
-  margin-left: -50%;
+  width:100$;
+  /*width: 200%;
+  margin-left: -50%;*/
 }
 .org-section {
   overflow:hidden;

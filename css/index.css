@@ -72,14 +72,21 @@ nav .dropdown-menu {
 nav .dropdown-menu li {
   padding:5px;
 }
+nav .dropdown-menu li a:hover{
+  background:#afcace;
+  border-radius:5px;
+}
 nav .dropdown-menu li a {
   color:white !important;
   font-weight: bold !important;
 }
-
+nav .dropdown-menu li.divider{
+  padding: 0 !important;
+}
 .jumbotron {margin-bottom: 0 !important;}
 
 .main {
+  min-height: 500px;
   overflow: hidden;
   width: 100%;
   padding-bottom:200px;   /* Height of the footer element */

@@ -581,6 +581,20 @@ nav .dropdown-menu li.divider{
   padding-bottom: 50px !important;
   background: #399eaa24 !important;
 }
+.organization #start .start-itn {
+    font-size:30px; 
+    font-style:italic; 
+    line-height: 150px;
+}
+.organization #start img.itn-icon {
+  display: block;
+  height: 75px;
+  width: 150px;
+  float: none;
+  text-align: center;
+  margin: 25px auto 25px auto;
+}
+
 #board h1, .org-section h1 {
   text-align:center;
   padding: 20px;
@@ -631,7 +645,7 @@ nav .dropdown-menu li.divider{
   overflow:hidden;
 }
 .org-section .national {
-  background-image: url('../images/backgrounds/map_generic.jpg');
+  background-image: url('../images/backgrounds/map_generic_light.png');
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -1170,6 +1184,11 @@ margin-left: -10%;
 .mb-100 {margin-bottom:100px}
 .mb-50 {margin-bottom:50px}
 .mb-25 {margin-bottom:25px}
+.center-70 {
+  margin-left:auto;
+  margin-right:auto;
+  width:70%
+}
 
 
 /* OFFICIAL WIDGETS */

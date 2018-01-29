@@ -1216,7 +1216,7 @@ margin-left: -10%;
 
 /* RESPONSIVE */
 
-@media (max-width: 1196px) {
+@media (max-width: 1210px) {
   .navbar.navbar-default {
     border: 0;
     -webkit-box-shadow: none;
@@ -1237,7 +1237,7 @@ margin-left: -10%;
   
 }
 
-@media (min-width: 898px) and (max-width: 1092px) {
+@media (min-width: 898px) and (max-width: 1105px) {
   .navbar-nav li:last-child {
     float: none;
     width:25%;
@@ -1246,7 +1246,7 @@ margin-left: -10%;
   }
 }
 
-@media (max-width: 897px) {
+@media (max-width: 913px) {
   .navbar-nav li:nth-last-child(2) {
     margin-left:20%;
   }
@@ -1270,7 +1270,7 @@ margin-left: -10%;
 }
 
 
-@media (min-width: 768px) and (max-width: 1196px) {
+@media (min-width: 768px) and (max-width: 1210px) {
   
   .navbar-header {
     float: none !important;

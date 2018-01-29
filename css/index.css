@@ -528,22 +528,23 @@ nav .dropdown-menu li.divider{
   margin-top:25px;
   margin-bottom:50px;
 }
-/*.community .shop-ride h2 {
-  color: #399eaa
-}
-.community .shop-ride hr {
-  border: none;
-  height: 5px;
-  color: #fc6d6d;
-  background-color: #fc6d6d;
-}*/
 .community .shop-ride .row {
   margin-top:50px;
 }
 .community .shop-ride .row .image{
   margin-top:50px;
 }
-
+.community .description {
+  padding-top:75px;
+  padding-bottom:75px;
+}
+.community .description .descr-box {
+  border-radius:10px;
+  border: 5px dashed white;
+  margin-left:1%;
+  margin-right:1%;
+  text-align:center;
+}
 .organization #first-hero-org {
   background-image: url('../../images/itn-people-images/ITNLanier_mirror.jpg');
   background-position: center center;

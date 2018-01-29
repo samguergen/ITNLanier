@@ -926,6 +926,9 @@ nav .dropdown-menu li.divider{
   color: #fc6d6d;
   background-color: #fc6d6d;
 }
+.family .carousel-control .glyphicon-chevron-left, .family .carousel-control .glyphicon-chevron-right {
+  color:red;
+}
 .family .carousel-control.left {
   background-image: linear-gradient(to right, #389eaa 0%, rgba(0, 0, 0, .0001) 100%);
 }

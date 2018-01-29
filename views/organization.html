@@ -237,11 +237,10 @@
       </section>
     
       <section class="org-section" id="start">
-        <!-- <h1>Start your own ITN</h1> -->
-        <img src="../images/icons/itn.jpg"/>
+        <img style="height:150px; width:150px;position:absolute" src="../images/icons/itn.jpg"/>>
         <div class="jumbotron section copy itn-lightgreen-bg">
-            <div class="col-sm-9">              
-              <a href="https://www.itnamerica.org" style="font-size:25px; font-style:italic">Start an ITN in your community</a>
+            <div class="col-sm-9">        
+              <a href="https//www.itnamerica.org:" style="font-size:25px; font-style:italic">Start an ITN in your Community</p>
             </div>
             <div class="col-sm-3">
               <img style="height:150px" src="../images/icons/cat-icon.png"/>
@@ -338,6 +337,16 @@
   
 </div>
   <script src="../app.js"></script>
+  <!-- <script>
+    $(document).ready(function(){
+      $('#board .row button').click(function(event){
+        var board_bio_proto = $(event.target).closest('div').find('.board-bio');
+        var board_bio = $(event.target).closest('div').find('.board-bio')[0];
+        console.log('text is ', board_bio, board_bio_proto);
+        // .css( "display", "block" );
+      })
+    })
+  </script> -->>
   <script>
       function readMore(divId) {
         var content = document.getElementById(divId);

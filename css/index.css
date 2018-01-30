@@ -326,20 +326,25 @@ nav .dropdown-menu li.divider{
   margin-top: 3%;
   background: #399eaa;
 }
-
-.services .dignified h4 {
+.services .dignified {
+  color: white;
+  font-weight: bold;
+}
+.services .dignified h2 {
   text-align:center;
 }
 .services .dignified p {
   text-align:justify;
-  font-size: 18px;
+  font-size: 22px;
+  color: white;
+  font-weight: bold;
 }
 .services .dignified .img-circle {
   border-radius: 100%;
   overflow: hidden;
-  height: 250px;
-  width: 250px;
-  margin:20px auto 20px auto;
+  height: 300px;
+  width: 280px;
+  margin: 100px auto 20px auto;
 }
 
 
@@ -554,7 +559,7 @@ nav .dropdown-menu li.divider{
   text-align:center;
 }
 .community ul li {
-  margin-top: 25px;
+  margin-top:25
 }
 
 .organization #first-hero-org {
@@ -1332,7 +1337,7 @@ margin-left: -10%;
 /* GENERAL */
 
 h2,h3 {line-height:1.7}
-ul {
+.jumbotron ul {
   font-size: 21px;
   font-weight: 200;
 }

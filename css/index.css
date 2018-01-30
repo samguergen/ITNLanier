@@ -193,7 +193,6 @@ nav .dropdown-menu li.divider{
   font-size:25px;
 }
 .homepage .progress {
-
   height: 300px;
   font-size: 40px;
   color: white;
@@ -252,7 +251,6 @@ nav .dropdown-menu li.divider{
   background-size: cover;
   background-repeat: no-repeat;
   height: 400px;
-  /*opacity:0.5;*/
 }
 
 .services .first-hero h1{
@@ -1095,8 +1093,6 @@ margin-left: -10%;
 }
 .become-member #first-hero-become h3 {
   color:#399eaa !important;
-  /*text-shadow: 2px 2px #529ba8;
-  margin-top:100px !important;*/
   margin-left: 5% !important;
 }
 .become-member .intro {
@@ -1112,6 +1108,14 @@ margin-left: -10%;
   padding: 10px 15px;
   font-size: 22px;
   margin: 15px 1%;
+}
+.become-member .ride-friend {
+  background-image: url('../../images/itn-people-images/men-car.jpg');
+  background-position: center top;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 400px;
+  text-shadow: 1px 1px black;
 }
 .become-member .btn {
   margin:2%;
@@ -1292,6 +1296,10 @@ margin-left: -10%;
   color: #fc6d6d;
   background-color: #fc6d6d;
 }
+
+/* GENERAL */
+
+h2,h3 {line-height:1.7}
 
 
 /* RESPONSIVE */

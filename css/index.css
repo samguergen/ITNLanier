@@ -1285,7 +1285,22 @@ margin-left: -10%;
 .center-70 {
   margin-left:auto;
   margin-right:auto;
-  width:70%
+  width:70%;
+}
+.center-80 {
+  margin-left:auto;
+  margin-right:auto;
+  width:80%;
+}
+.center-85 {
+  margin-left:auto;
+  margin-right:auto;
+  width:85%;
+}
+.center-90 {
+  margin-left:auto;
+  margin-right:auto;
+  width:90%;
 }
 .ta-center {
   text-align:center;

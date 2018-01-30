@@ -1133,7 +1133,20 @@ margin-left: -10%;
 .become-member .service-features .col-sm-4 .icon-legend {
   margin-top: 7%;
   font-weight: bold;
-  font-size: 18px;
+  font-size: 22px;
+}
+.become-member .icon-wrap-circle {
+  border-radius: 100%;
+  color: white;
+  background: #399eaa;
+  height: 150px;
+  WIDTH: 150PX;
+  margin-left: auto;
+  margin-right: auto;
+}
+.become-member .icon-wrap-circle i {
+  color:white;
+  line-height:150px;
 }
 
 

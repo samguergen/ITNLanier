@@ -415,7 +415,7 @@ nav .dropdown-menu li.divider{
   background:white;
 }
 .donate .first-hero {
-  background-image: url('../../images/itn-people-faded/woman-cheek.jpg') !important;
+  background-image: url('../../images/itn-people-faded/old-aa-woman-reverse.png');
   background-position: center center !important;
   background-size: cover !important;
   background-repeat: no-repeat !important;
@@ -423,7 +423,7 @@ nav .dropdown-menu li.divider{
   /*opacity:0.6;*/
 }
 .donate .first-hero h1{
-  color:white;
+  color:#529ba8;
   text-shadow: 2px 2px #529ba8;
   margin-top:170px;
   margin-left: 5%;
@@ -433,6 +433,11 @@ nav .dropdown-menu li.divider{
   color:white;
 }
 .donate .donate-intro p{  font-size:25px; }
+.donate .nav-tabs {
+  margin-left:5%;
+  margin-right:5%;
+  font-weight: bold;
+}
 .donate .nav-tabs li a { font-size:20px }
 .donate .donate-type {
   background: #f8fafa;
@@ -572,6 +577,7 @@ nav .dropdown-menu li.divider{
   font-size: 18px;
   padding-left: 10px;
   background: white;
+  font-weight: bold;
 }
 .organization .nav-tabs li {
   padding-top: 15px;
@@ -1073,9 +1079,32 @@ margin-left: -10%;
   margin-top: 20px;
   margin-bottom: 10px;
 }
-/*#first-name, #last-name, #city, #state, #phone, #zip, #email, #email-confirmation {
-  width:30%;
-}*/
+
+
+.become-member #first-hero-become {
+  background-image: url('../../images/itn-people-faded/smiling-old-woman.png');
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 400px;
+}
+.become-member #first-hero-become h1{
+  color:white !important;
+  color:#399eaa !important;
+  text-shadow: 2px 2px #529ba8;
+  margin-top:170px !important;
+  margin-left: 5% !important;
+}
+.become-member .intro {
+  width: 70%;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 2;
+  margin-bottom: 50px;
+  font-size: 25px;
+  color: #fc6d6d;
+}
 
 
     

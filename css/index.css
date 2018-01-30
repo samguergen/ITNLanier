@@ -1113,13 +1113,23 @@ margin-left: -10%;
   font-size: 22px;
   margin: 15px 1%;
 }
-.become-member .itn-title {
-  /*width:33%;*/
-}
 .become-member .btn {
-  /*margin-right:2%;
-  margin-left:2%;*/
   margin:2%;
+}
+.become-member .service-features .col-sm-4 {
+  text-align:center;
+  padding: 2%;
+}
+.become-member .service-features .col-sm-4 .icon-wrap {
+  font-size: 50px;
+}
+.become-member .service-features .col-sm-4 .icon-wrap .fa {
+  font-size: 70px;
+}
+.become-member .service-features .col-sm-4 .icon-legend {
+  margin-top: 7%;
+  font-weight: bold;
+  font-size: 18px;
 }
 
 

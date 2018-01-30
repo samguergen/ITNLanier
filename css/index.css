@@ -415,12 +415,11 @@ nav .dropdown-menu li.divider{
   background:white;
 }
 .donate .first-hero {
-  background-image: url('../../images/itn-people-faded/old-aa-woman-reverse.png');
+  background-image: url('../../images/itn-people-faded/woman-coffee.png');
   background-position: center center !important;
   background-size: cover !important;
   background-repeat: no-repeat !important;
   height: 400px !important;
-  /*opacity:0.6;*/
 }
 .donate .first-hero h1{
   color:#529ba8;
@@ -1082,28 +1081,37 @@ margin-left: -10%;
 
 
 .become-member #first-hero-become {
-  background-image: url('../../images/itn-people-faded/smiling-old-woman.png');
+  background-image: url('../../images/itn-people-faded/old-aa-woman-reverse.png');
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
   height: 400px;
 }
-.become-member #first-hero-become h1{
-  color:white !important;
+.become-member #first-hero-become h1 {
   color:#399eaa !important;
   text-shadow: 2px 2px #529ba8;
   margin-top:170px !important;
   margin-left: 5% !important;
 }
+.become-member #first-hero-become h3 {
+  color:#399eaa !important;
+  /*text-shadow: 2px 2px #529ba8;
+  margin-top:100px !important;*/
+  margin-left: 5% !important;
+}
 .become-member .intro {
-  width: 70%;
+  background: #c7dfe4;
+  padding-left: 15%;
+  padding-right: 15%;
   text-align: center;
-  margin-left: auto;
-  margin-right: auto;
-  line-height: 2;
-  margin-bottom: 50px;
-  font-size: 25px;
-  color: #fc6d6d;
+}
+.become-member .intro h3, .become-member .intro h4 {
+  line-height:1.7;
+}
+.become-member .intro .badge {
+  padding: 10px 15px;
+  font-size: 22px;
+  margin: 15px 1%;
 }
 
 

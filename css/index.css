@@ -553,6 +553,10 @@ nav .dropdown-menu li.divider{
   margin-right:1%;
   text-align:center;
 }
+.community ul li {
+  margin-top: 25px;
+}
+
 .organization #first-hero-org {
   background-image: url('../../images/itn-people-faded/ITNLanier_mirror.png');
   background-position: center center;
@@ -1328,6 +1332,10 @@ margin-left: -10%;
 /* GENERAL */
 
 h2,h3 {line-height:1.7}
+ul {
+  font-size: 21px;
+  font-weight: 200;
+}
 
 
 /* RESPONSIVE */

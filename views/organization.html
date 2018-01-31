@@ -145,7 +145,7 @@
         <h1>BOARD OF DIRECTORS</h1>
         <div class="row mb-100">
           <div class="col-sm-4">
-            <img src="../images/board/Jerry_Butler.png"/>
+            <img src="../images/board/Jerry_Butler.png" alt="Jerry Butler Portrait"/>
             <h2>Jerry Butler</h2>
             <p class="title">Chair and Treasurer</p>
             <button type="button" class="btn btn-lg" onclick="readMore('board-bio1')">READ MORE</button>
@@ -156,7 +156,7 @@
           </div>
           
           <div class="col-sm-4">
-            <img src="../images/board/Kathy_Oates.jpg"/>
+            <img src="../images/board/Kathy_Oates.jpg" alt="Kathy Oates portrait"/>
             <h2>Kathy K. Oates</h2>
             <p class="title">Secretary</p>
             <button type="button" class="btn btn-lg" onclick="readMore('board-bio2')">READ MORE</button>
@@ -167,7 +167,7 @@
           </div>
           
           <div class="col-sm-4">
-            <img src="../images/board/Julia_Greene.jpg"/>
+            <img src="../images/board/Julia_Greene.jpg" alt="Julia Greene portrait"/>
             <h2>Julia K. Greene</h2>
             <p class="title">Board Member</p>
             <button type="button" class="btn btn-lg" onclick="readMore('board-bio3')">READ MORE</button>
@@ -184,7 +184,7 @@
         
         <div class="row mb-100">
           <div class="col-sm-4">
-            <img src="../images/board/emily_mccord.jpg"/>
+            <img src="../images/board/emily_mccord.jpg" alt="Emily McCord portrait"/>
             <h2>Emily McCord, LMFT</h2>
             <p class="title">Board Member</p>
             <button type="button" class="btn btn-lg" onclick="readMore('board-bio4')">READ MORE</button>
@@ -197,7 +197,7 @@
           </div>
           
           <div class="col-sm-4">
-            <img src="../images/board/Patrick_ORouke.jpg"/>
+            <img src="../images/board/Patrick_ORouke.jpg" alt="Patric ORouke portrait"/>
             <h2>Patrick O’Rouke</h2>
             <p class="title">Board Member</p>
             <button type="button" class="btn btn-lg" onclick="readMore('board-bio5')">READ MORE</button>
@@ -208,7 +208,7 @@
           </div>
           
           <div class="col-sm-4">
-            <img src="../images/board/Keith_Guernsey.jpg"/>
+            <img src="../images/board/Keith_Guernsey.jpg" alt="Keith Guernsey portrait"/>
             <h2>Keith Guernsey</h2>
             <p class="title">Board Member</p>
             <button type="button" class="btn btn-lg" onclick="readMore('board-bio6')">READ MORE</button>
@@ -222,7 +222,7 @@
         
         <div class="row">
           <div class="col-sm-4">
-            <img src="../images/board/jeff_rock.jpg"/>
+            <img src="../images/board/jeff_rock.jpg" alt="Jeff Rock portrait"/>
             <h2>Jeff Rock</h2>
             <p class="title">Board Member</p>
             <button type="button" class="btn btn-lg" onclick="readMore('board-bio7')">READ MORE</button>
@@ -237,14 +237,15 @@
       </section>
     
       <section class="org-section" id="start">
-        <!-- <h1>Start your own ITN</h1> -->
-        <img src="../images/icons/itn.jpg"/>
+        <img class="itn-icon" src="../images/icons/itn2.jpg" alt="ITN icon"/>
         <div class="jumbotron section copy itn-lightgreen-bg">
-            <div class="col-sm-9">              
-              <a href="https://www.itnamerica.org" style="font-size:25px; font-style:italic">Start an ITN in your community</a>
+          <div class="row center-70">
+            <div class="col-sm-9">
+              <a class="start-itn" href="https//www.itnamerica.org">Start an ITN in your Community</a>
             </div>
             <div class="col-sm-3">
-              <img style="height:150px" src="../images/icons/cat-icon.png"/>
+              <img style="height:150px" src="../images/start-bird.jpg"/>
+            </div>
             </div>
         </div><!--jumbo-->
           
@@ -338,6 +339,16 @@
   
 </div>
   <script src="../app.js"></script>
+  <!-- <script>
+    $(document).ready(function(){
+      $('#board .row button').click(function(event){
+        var board_bio_proto = $(event.target).closest('div').find('.board-bio');
+        var board_bio = $(event.target).closest('div').find('.board-bio')[0];
+        console.log('text is ', board_bio, board_bio_proto);
+        // .css( "display", "block" );
+      })
+    })
+  </script> -->>
   <script>
       function readMore(divId) {
         var content = document.getElementById(divId);

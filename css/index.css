@@ -127,10 +127,11 @@ nav .dropdown-menu li.divider{
     background-size: cover;
 }
 
-.carousel-inner .item img{
+.carousel-inner .item img {
+  object-fit: cover;
   width: 100%;
+  
   height: 500px;
-  /*margin-left:6%;*/
   margin-left:auto;
   margin-right:auto;
   z-index: 10;
